@@ -1,0 +1,13 @@
+SELECT ?title (COUNT(?creator) AS ?authors) 
+WHERE
+{
+    ?pub dcterms:type ?article .
+    ?article rdfs:label "article" .
+
+    ?pub dcterms:title ?title .
+
+    ?pub dcterms:creator ?creator .
+}
+GROUP BY ?title
+HAVING (?authors > 8)
+ORDER BY DESC(?authors)

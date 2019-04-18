@@ -1,0 +1,12 @@
+SELECT ?journal (COUNT (?article) AS ?articles)
+WHERE
+{
+    ?pub dcterms:type ?article .
+    ?article rdfs:label "article" .
+
+    ?pub dcterms:isPartOf ?x .
+    ?x dcterms:isPartOf ?y .
+    ?y rdfs:label ?journal .
+}
+GROUP BY ?journal
+ORDER BY ?articles

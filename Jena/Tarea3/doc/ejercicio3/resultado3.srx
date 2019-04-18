@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<sparql xmlns="http://www.w3.org/2005/sparql-results#">
+  <head>
+    <variable name="university"/>
+    <variable name="rector"/>
+  </head>
+  <results>
+    <result>
+      <binding name="university">
+        <literal xml:lang="es">Universidad Nacional de Educación a Distancia</literal>
+      </binding>
+      <binding name="rector">
+        <uri>http://dbpedia.org/resource/Alejandro_Tiana_Ferrer</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="university">
+        <literal xml:lang="es">Universidad Carlos III de Madrid</literal>
+      </binding>
+      <binding name="rector">
+        <uri>http://dbpedia.org/resource/Juan_Romo</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="university">
+        <literal xml:lang="es">Universidad Rey Juan Carlos</literal>
+      </binding>
+      <binding name="rector">
+        <uri>http://dbpedia.org/resource/Fernando_Suárez_Bilbao</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="university">
+        <literal xml:lang="es">Universidad de Alcalá</literal>
+      </binding>
+      <binding name="rector">
+        <uri>http://dbpedia.org/resource/Dr._Fernando_Galván</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="university">
+        <literal xml:lang="es">Universidad de Murcia</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="university">
+        <literal xml:lang="es">Universidad Autónoma de Madrid</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="university">
+        <literal xml:lang="es">Universidad de Valladolid</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="university">
+        <literal xml:lang="es">Universidad Politécnica de Valencia</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="university">
+        <literal xml:lang="es">Universidad Pablo de Olavide</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="university">
+        <literal xml:lang="es">Universidad de Huelva</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="university">
+        <literal xml:lang="es">Universidad de Málaga</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="university">
+        <literal xml:lang="es">Universidad de Gerona</literal>
+      </binding>
+      <binding name="rector">
+        <uri>http://dbpedia.org/resource/Sergi_Bonet</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="university">
+        <literal xml:lang="es">Universidad de Barcelona</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="university">
+        <literal xml:lang="es">Universidad de Las Palmas de Gran Canaria</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="university">
+        <literal xml:lang="es">Universidad de La Coruña</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="university">
+        <literal xml:lang="es">Universidad de Burgos</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="university">
+        <literal xml:lang="es">Universidad de Castilla-La Mancha</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="university">
+        <literal xml:lang="es">Universidad de Santiago de Compostela</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="university">
+        <literal xml:lang="es">Universidad Pública de Navarra</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="university">
+        <literal xml:lang="es">Universidad de Oviedo</literal>
+      </binding>
+      <binding name="rector">
+        <uri>http://dbpedia.org/resource/Vicente_Gotor_Santamaría</uri>
+      </binding>
+    </result>
+    <result>
+      <binding name="university">
+        <literal xml:lang="es">Universidad de Salamanca</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="university">
+        <literal xml:lang="es">Universidad de Sevilla</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="university">
+        <literal xml:lang="es">Universidad de La Laguna</literal>
+      </binding>
+    </result>
+  </results>
+</sparql>

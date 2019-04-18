@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<sparql xmlns="http://www.w3.org/2005/sparql-results#">
+  <head>
+    <variable name="name"/>
+    <variable name="articles"/>
+  </head>
+  <results>
+    <result>
+      <binding name="name">
+        <literal>Wang, Y.</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">16</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal>Utescher, T.</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">12</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal>Kellner, A.W.A.</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal>Csiki, Z.</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">9</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal>Dean, W. E.</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">9</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal>Korn, D.</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">9</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal>Liu, J.</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">9</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal>Mosbrugger, V.</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">9</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal></literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">8</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="name">
+        <literal>Grigorescu, D.</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">8</literal>
+      </binding>
+    </result>
+  </results>
+</sparql>

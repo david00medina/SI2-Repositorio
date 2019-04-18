@@ -1,0 +1,361 @@
+<?xml version="1.0"?>
+<sparql xmlns="http://www.w3.org/2005/sparql-results#">
+  <head>
+    <variable name="journal"/>
+    <variable name="articles"/>
+  </head>
+  <results>
+    <result>
+      <binding name="journal">
+        <literal>PALEONTOLOGICAL SOCIETY PAPERS</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">2</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="journal">
+        <literal>GEOLOGISCHES JAHRBUCH REIHE A</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">3</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="journal">
+        <literal>PALAEOBIODIVERSITY AND PALAEOENVIRONMENTS</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">4</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="journal">
+        <literal>MEMOIRS- GEOLOGICAL SOCIETY OF AMERICA</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">7</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="journal">
+        <literal>ANNALES DE PALEONTOLOGIE</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">8</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="journal">
+        <literal>BOLLETTINO- SOCIETA PALEONTOLOGICA ITALIANA</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">8</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="journal">
+        <literal>PALAEONTOLOGISCHE ZEITSCHRIFT</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">9</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="journal">
+        <literal>PALAONTOLOGISCHE ZEITSCHRIFT</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">9</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="journal">
+        <literal>SWISS JOURNAL OF PALAEONTOLOGY</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">9</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="journal">
+        <literal>ANNALS- CARNEGIE MUSEUM PITTSBURGH</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">12</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="journal">
+        <literal>JOURNAL OF SYSTEMATIC PALAEONTOLOGY</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">13</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="journal">
+        <literal>BULLETINS OF AMERICAN PALEONTOLOGY</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">16</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="journal">
+        <literal>JOURNAL OF MICROPALAEONTOLOGY</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">16</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="journal">
+        <literal>REVUE DE MICROPALEONTOLOGIE</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">16</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="journal">
+        <literal>JOURNAL- PALEONTOLOGICAL SOCIETY OF KOREA</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">17</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="journal">
+        <literal>REVISTA ESPANOLA DE MICROPALEONTOLOGIA</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">20</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="journal">
+        <literal>SPECIAL PAPERS IN PALAEONTOLOGY</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">23</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="journal">
+        <literal>MITTEILUNGEN- MUSEUM FUR NATURKUNDE IN BERLIN GEOWISSENSCHAFTLICHE REIHE</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">25</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="journal">
+        <literal>PUBLICATIONS- SOCIETY OF ECONOMIC PALAEONTOLOGISTS AND MINERALOGISTS PERMIAN BASIN SECTION PBS SEPM</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">30</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="journal">
+        <literal>REVUE DE PALEOBIOLOGIE</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">33</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="journal">
+        <literal>RIVISTA ITALIANA DI PALEONTOLOGIA E STRATIGRAFIA</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">38</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="journal">
+        <literal>ICHNOS -CHUR-</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">42</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="journal">
+        <literal>PALEONTOLOGICAL RESEARCH</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">42</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="journal">
+        <literal>PALAEOWORLD</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">45</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="journal">
+        <literal>FACIES</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">49</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="journal">
+        <literal>HISTORICAL BIOLOGY</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">54</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="journal">
+        <literal>VERTEBRATA PALASIATICA</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">55</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="journal">
+        <literal>ALCHERINGA</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">64</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="journal">
+        <literal>MARINE MICROPALAEONTOLOGY</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">64</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="journal">
+        <literal>LETHAIA</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">69</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="journal">
+        <literal>COMPTES RENDUS PALEVOL</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">74</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="journal">
+        <literal>PALEOBIOLOGY -CHICAGO-</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">77</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="journal">
+        <literal>ACTA PALAEONTOLOGICA SINICA</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">80</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="journal">
+        <literal>BOREAS -OSLO-</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">85</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="journal">
+        <literal>ACTA PALAEONTOLOGICA POLONICA</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">99</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="journal">
+        <literal>JOURNAL OF NATURAL RESOURCES AND LIFE SCIENCES EDUCATION</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">114</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="journal">
+        <literal>JOURNAL OF PALEONTOLOGY</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">128</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="journal">
+        <literal>GEOBIOS -JODHPUR-</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">137</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="journal">
+        <literal>PALEONTOLOGICAL JOURNAL C/C OF PALEONTOLOGICHESKII ZHURNAL</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">139</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="journal">
+        <literal>PALAEONTOLOGY</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">140</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="journal">
+        <literal>ANAIS- ACADEMIA BRASILEIRA DE CIENCIAS</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">185</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="journal">
+        <literal>NEUES JAHRBUCH FUR GEOLOGIE UND PALAONTOLOGIE ABHANDLUNGEN</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">226</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="journal">
+        <literal>SPECIAL PAPERS- GEOLOGICAL SOCIETY OF AMERICA</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">340</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="journal">
+        <literal>PALAEOGEOGRAPHY PALAEOCLIMATOLOGY PALAEOECOLOGY</literal>
+      </binding>
+      <binding name="articles">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">570</literal>
+      </binding>
+    </result>
+  </results>
+</sparql>

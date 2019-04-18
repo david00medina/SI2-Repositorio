@@ -1,0 +1,617 @@
+<?xml version="1.0"?>
+<sparql xmlns="http://www.w3.org/2005/sparql-results#">
+  <head>
+    <variable name="title"/>
+    <variable name="authors"/>
+  </head>
+  <results>
+    <result>
+      <binding name="title">
+        <literal>Moncucco Torinese, a new post-evaporitic Messinian fossiliferous site from Piedmont (NW Italy). (With 6 figures)</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">20</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>A new freshwater crab (Decapoda: Brachyura: Potamonautidae) from the Paleogene of Tanzania, Africa. (With 2 figures and 1 table)</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">16</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>The lithostratigraphy of the Les Echets basin, France: tentative correlation between cores</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">11</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>1,4- Addition of diazomethane to a heterodiene: a direct preparation of the oxazolic ring</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>A 45kyr palaeoclimate record from the lowland interior of tropical South America</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>A baseline paleoecological study for the Santa Cruz Formation (late-early Miocene) at the Atlantic coast of Patagonia, Argentina</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>A new basal ornithopod dinosaur from the Upper Cretaceous of South Korea. (With 18 figures and 2 tables)</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>An Integrated Analysis of the Use of Woodstoves to Supplement Fossil Fuel-Fired Domestic Heating</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Biogeochemical indicators of environmental changes from 50Ka to 10Ka in a humid region of the Brazilian Amazon</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Carbonate and organic matter sedimentation and isotopic signatures in Lake Chungara, Chilean Altiplano, during the last 12.3kyr</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Changes in shell durability of common marine taxa through the Phanerozoic: evidence for biological rather than taphonomic drivers</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Comparison of stable isotope time series of stalagmite and meteorological data from West Java, Indonesia</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Early Triassic (Induan) Radiolaria and carbon-isotope ratios of a deep-sea sequence from Waiheke Island, North Island, New Zealand</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Environmental and vegetational changes recorded in sedimentary leaf wax n-alkanes across the Cretaceous-Paleogene boundary at Loma Capiro, Central Cuba</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Evidence de l'age Trias inferieur (Olenekien) dans le Bassin d'Argana (Haut Atlas, Maroc) basee sur des traces chirotherioides</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Geological and geochemical aspects of a Devonian siliceous succession in northern Thailand: Implications for the opening of the Paleo-Tethys</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>High Geologic Slip Rates since Early Pleistocene Initiation of the San Jacinto and San Felipe Fault Zones in the San Andreas Fault System: Southern California, USA</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>High-resolution analysis of trace elements in crustose coralline algae from the North Atlantic and North Pacific by laser ablation ICP-MS</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Histological modifications of the rat prostate following transection of somatic and autonomic nerves</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Imagerie par rayonnement X synchrotron d'inclusions dans l'ambre</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Integrated chronostratigraphy of an intra-arc basin: ^4^0Ar/^3^9Ar datings, micropalaeontology and magnetostratigraphy of the early Miocene Castelsardo basin (northern Sardinia, Italy)</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Integrating Field-Based Research into the Classroom: An Environmental Sampling Exercise</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Late Eocene sea retreat from the Tarim Basin (west China) and concomitant Asian paleoenvironmental change</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Late Little Ice Age palaeoenvironmental records from the Anzali and Amirkola Lagoons (south Caspian Sea): Vegetation and sea level changes</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Late Quaternary paleoenvironmental records from the western Lena Delta, Arctic Siberia</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Mg/Ca and d^1^8O in the brackish shallow-water benthic foraminifer Ammonia 'beccarii'</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Micropaleontologic record of Quaternary paleoenvironments in the Central Albemarle Embayment, North Carolina, U.S.A.</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Modelling Late Miocene vegetation in Europe: Results of the CARAIB model and comparison with palaeovegetation data</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Multi proxy evidence for early to mid Holocene environmental and climatic changes in northeastern Poland</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Net dextral slip, Neogene San Gregorio-Hosgri fault zone, coastal California: Geologic evidence and tectonic implications</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Onset and termination of the late-glacial climate reversal in the high-resolution diatom and sedimentary records from the annually laminated SG06 core from Lake Suigetsu, Japan</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Oxygen and carbon isotope compositions of middle Cretaceous vertebrates from North Africa and Brazil: Ecological and environmental significance</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Palaeoenvironmental and palaeoclimatic reconstruction of the Latest Pleistocene of El Portalon Site, Sierra de Atapuerca, northwestern Spain</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Palaeoenvironmental studies in NW Iberia (Cantabrian range): Vegetation history and synthetic approach of the last deglaciation phases in the western Mediterranean</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Paleoecology of commensal epizoans fouling Flexicalymene (Trilobita) from the Upper Ordovician, Cincinnati Arch region, USA</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Paper II - Dirt, dates and DNA: OSL and radiocarbon chronologies of perennially frozen sediments in Siberia, and their implications for sedimentary ancient DNA studies</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Pleistocene environments and human presence in the middle Atbara valley (Khashm El Girba, Eastern Sudan)</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Postglacial changes in the Asian summer monsoon system: a pollen record from the eastern margin of the Tibetan Plateau</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Revised correlation of Silurian Provincial Series of North America with global and regional chronostratigraphic units and 13Ccarb chemostratigraphy</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Sea ice extent and seasonality for the Early Pliocene northern Weddell Sea</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Sequence stratigraphy of the ANDRILL AND-2A drillcore, Antarctica: A long-term, ice-proximal record of Early to Mid-Miocene climate, sea-level and glacial dynamism</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Source, timing, frequency and flux of ice-rafted detritus to the Northeast Atlantic margin, 30-12 ka: testing the Heinrich precursor hypothesis</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Spatial variation in sediment fluxes, redox conditions, and productivity in the Permian-Triassic Panthalassic Ocean</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>The Late Ordovician glacio-eustatic record from a high-latitude storm-dominated shelf succession: The Bou Ingarf section (Anti-Atlas, Southern Morocco)</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>The Permian-Triassic transition and the onset of Mesozoic sedimentation at the northwestern peri-Tethyan domain scale: Palaeogeographic maps and geodynamic implications</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>The anatomy, taphonomy, taxonomy and systematic affinity of Markuelia: Early Cambrian to Early Ordovician scalidophorans</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>The mid-Capitanian (Middle Permian) mass extinction and carbon isotope record of South China</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Un nouveau site a vertebres terrestres juste apres la limite Paleocene-Eocene, dans la Formation de Mortemer en Haute-Normandie, France</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Anti-inflammatory, antinociceptive, and antipyretic effects of methanol extract of Cariniana rubra stem bark in animal models</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">9</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Anti-phase oscillation of Asian monsoons during the Younger Dryas period: Evidence from peat cellulose d^1^3C of Hani, Northeast China</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">9</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Asian early Paleogene chronology and mammalian faunal turnover events</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">9</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Attributes of the wood-boring trace fossil Asthenopodichnium in the Late Cretaceous Wahweap Formation, Utah, USA</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">9</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Biological and water chemistry controls on Sr/Ca, Ba/Ca, Mg/Ca and d^1^8O profiles in freshwater pearl mussel Hyriopsis sp.</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">9</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Biostratigraphical calibration of third order Ordovician sequences on the northern Gondwana platform</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">9</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Changes in Glycosaminoglycan Synthesis and RPTB-β Expression in the Cortex and Hippocampus of Rats Due to Pilocarpine-induced Epilepsy</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">9</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Climate control of sulfate influx to Lake Hovsgol, northwest Mongolia, during the last glacial-postglacial transition: Constraints from sulfur geochemistry</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">9</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Collaborative Graduate Education across Multiple Campuses</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">9</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Comparison of carbonate C and O stable isotope records across the Jurassic/Cretaceous boundary in the Tethyan and Boreal Realms</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">9</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Coupling of palaeoceanographic shifts and changes in marine reservoir ages off North Iceland through the last millennium</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">9</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Distribution of large Emiliania huxleyi in the Central and Northeast Atlantic as a tracer of surface ocean dynamics during the last 25,000years</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">9</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Early Eocene perissodactyls (Mammalia) from the upper Nomogen Formation of the Erlian Basin, Nei Mongol, China</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">9</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Etude des Homo erectus de Yunxian et de Nankin en Chine. Apport de l'imagerie 3D</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">9</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Global radiolarian zonation for the Pliensbachian, Toarcian and Aalenian</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">9</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>High prevalence of unusual genotypes of Toxoplasma gondii infection in pork meat samples from Erechim, Southern Brazil</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">9</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Hydrocarbon seeps from close to the Jurassic-Cretaceous boundary, Svalbard</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">9</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>In vitro and in vivo antiproliferative activity of Calotropis procera stem extracts</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">9</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Intense storm activity during the Little Ice Age on the French Mediterranean coast</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">9</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Late Quaternary (Weichselian) alluvial history and neotectonic control on fluvial landscape development in the southern Koros plain, Hungary</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">9</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Palaeoenvironmental changes in the Padul Basin (Granada, Spain) over the last 1Ma based on the biomarker content</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">9</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Petrographic and isotopic evidence for Holocene long-term climate change and shorter-term environmental shifts from a stalagmite from the Serra do Courel of northwestern Spain, and implications for climatic history across Europe and the Mediterranean</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">9</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Predation on Holocene ostracods of the Donana National Park (SW Spain)</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">9</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Production, purification and characterization of a thermostable beta -1,3-glucanase (laminarinase) produced by Moniliophthora perniciosa</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">9</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Role of renin-angiotensin system in development of heart failure induced by myocardial infarction in rats</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">9</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Surface Microstructures of the Microbialite Around Permo-Triassic Boundary, NE Sichuan, China</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">9</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>The Holocene vertebrate fauna from Guenfouda site, Eastern Morocco</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">9</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="title">
+        <literal>Triassic Evolution of the Yangtze Platform in Guizhou Province, People's Republic of China</literal>
+      </binding>
+      <binding name="authors">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#integer">9</literal>
+      </binding>
+    </result>
+  </results>
+</sparql>

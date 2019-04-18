@@ -1,0 +1,48 @@
+--------------------------------------------------------------------------------------------------------------------
+| journal                                                                                               | articles |
+====================================================================================================================
+| "PALEONTOLOGICAL SOCIETY PAPERS"                                                                      | 2        |
+| "GEOLOGISCHES JAHRBUCH REIHE A"                                                                       | 3        |
+| "PALAEOBIODIVERSITY AND PALAEOENVIRONMENTS"                                                           | 4        |
+| "MEMOIRS- GEOLOGICAL SOCIETY OF AMERICA"                                                              | 7        |
+| "ANNALES DE PALEONTOLOGIE"                                                                            | 8        |
+| "BOLLETTINO- SOCIETA PALEONTOLOGICA ITALIANA"                                                         | 8        |
+| "PALAEONTOLOGISCHE ZEITSCHRIFT"                                                                       | 9        |
+| "PALAONTOLOGISCHE ZEITSCHRIFT"                                                                        | 9        |
+| "SWISS JOURNAL OF PALAEONTOLOGY"                                                                      | 9        |
+| "ANNALS- CARNEGIE MUSEUM PITTSBURGH"                                                                  | 12       |
+| "JOURNAL OF SYSTEMATIC PALAEONTOLOGY"                                                                 | 13       |
+| "BULLETINS OF AMERICAN PALEONTOLOGY"                                                                  | 16       |
+| "JOURNAL OF MICROPALAEONTOLOGY"                                                                       | 16       |
+| "REVUE DE MICROPALEONTOLOGIE"                                                                         | 16       |
+| "JOURNAL- PALEONTOLOGICAL SOCIETY OF KOREA"                                                           | 17       |
+| "REVISTA ESPANOLA DE MICROPALEONTOLOGIA"                                                              | 20       |
+| "SPECIAL PAPERS IN PALAEONTOLOGY"                                                                     | 23       |
+| "MITTEILUNGEN- MUSEUM FUR NATURKUNDE IN BERLIN GEOWISSENSCHAFTLICHE REIHE"                            | 25       |
+| "PUBLICATIONS- SOCIETY OF ECONOMIC PALAEONTOLOGISTS AND MINERALOGISTS PERMIAN BASIN SECTION PBS SEPM" | 30       |
+| "REVUE DE PALEOBIOLOGIE"                                                                              | 33       |
+| "RIVISTA ITALIANA DI PALEONTOLOGIA E STRATIGRAFIA"                                                    | 38       |
+| "ICHNOS -CHUR-"                                                                                       | 42       |
+| "PALEONTOLOGICAL RESEARCH"                                                                            | 42       |
+| "PALAEOWORLD"                                                                                         | 45       |
+| "FACIES"                                                                                              | 49       |
+| "HISTORICAL BIOLOGY"                                                                                  | 54       |
+| "VERTEBRATA PALASIATICA"                                                                              | 55       |
+| "ALCHERINGA"                                                                                          | 64       |
+| "MARINE MICROPALAEONTOLOGY"                                                                           | 64       |
+| "LETHAIA"                                                                                             | 69       |
+| "COMPTES RENDUS PALEVOL"                                                                              | 74       |
+| "PALEOBIOLOGY -CHICAGO-"                                                                              | 77       |
+| "ACTA PALAEONTOLOGICA SINICA"                                                                         | 80       |
+| "BOREAS -OSLO-"                                                                                       | 85       |
+| "ACTA PALAEONTOLOGICA POLONICA"                                                                       | 99       |
+| "JOURNAL OF NATURAL RESOURCES AND LIFE SCIENCES EDUCATION"                                            | 114      |
+| "JOURNAL OF PALEONTOLOGY"                                                                             | 128      |
+| "GEOBIOS -JODHPUR-"                                                                                   | 137      |
+| "PALEONTOLOGICAL JOURNAL C/C OF PALEONTOLOGICHESKII ZHURNAL"                                          | 139      |
+| "PALAEONTOLOGY"                                                                                       | 140      |
+| "ANAIS- ACADEMIA BRASILEIRA DE CIENCIAS"                                                              | 185      |
+| "NEUES JAHRBUCH FUR GEOLOGIE UND PALAONTOLOGIE ABHANDLUNGEN"                                          | 226      |
+| "SPECIAL PAPERS- GEOLOGICAL SOCIETY OF AMERICA"                                                       | 340      |
+| "PALAEOGEOGRAPHY PALAEOCLIMATOLOGY PALAEOECOLOGY"                                                     | 570      |
+--------------------------------------------------------------------------------------------------------------------

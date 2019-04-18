@@ -1,0 +1,15 @@
+PREFIX dbo: <http://dbpedia.org/ontology/> 
+PREFIX dbr: <http://dbpedia.org/resource/> 
+
+select ?university ?rector  
+where { 
+    ?x dbo:type dbr:Public_university . 
+    ?x dbo:country dbr:Spain . 
+    ?x rdfs:label ?university . 
+
+    optional { 
+        ?x dbo:rector ?rector . 
+    } 
+
+    filter(langMatches(lang(?university),"es")) . 
+}

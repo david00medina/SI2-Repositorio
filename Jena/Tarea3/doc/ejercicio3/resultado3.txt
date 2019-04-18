@@ -1,0 +1,27 @@
+---------------------------------------------------------------------------------------------------------------
+| university                                         | rector                                                 |
+===============================================================================================================
+| "Universidad Nacional de Educación a Distancia"@es | <http://dbpedia.org/resource/Alejandro_Tiana_Ferrer>   |
+| "Universidad Carlos III de Madrid"@es              | <http://dbpedia.org/resource/Juan_Romo>                |
+| "Universidad Rey Juan Carlos"@es                   | <http://dbpedia.org/resource/Fernando_Suárez_Bilbao>   |
+| "Universidad de Alcalá"@es                         | <http://dbpedia.org/resource/Dr._Fernando_Galván>      |
+| "Universidad de Murcia"@es                         |                                                        |
+| "Universidad Autónoma de Madrid"@es                |                                                        |
+| "Universidad de Valladolid"@es                     |                                                        |
+| "Universidad Politécnica de Valencia"@es           |                                                        |
+| "Universidad Pablo de Olavide"@es                  |                                                        |
+| "Universidad de Huelva"@es                         |                                                        |
+| "Universidad de Málaga"@es                         |                                                        |
+| "Universidad de Gerona"@es                         | <http://dbpedia.org/resource/Sergi_Bonet>              |
+| "Universidad de Barcelona"@es                      |                                                        |
+| "Universidad de Las Palmas de Gran Canaria"@es     |                                                        |
+| "Universidad de La Coruña"@es                      |                                                        |
+| "Universidad de Burgos"@es                         |                                                        |
+| "Universidad de Castilla-La Mancha"@es             |                                                        |
+| "Universidad de Santiago de Compostela"@es         |                                                        |
+| "Universidad Pública de Navarra"@es                |                                                        |
+| "Universidad de Oviedo"@es                         | <http://dbpedia.org/resource/Vicente_Gotor_Santamaría> |
+| "Universidad de Salamanca"@es                      |                                                        |
+| "Universidad de Sevilla"@es                        |                                                        |
+| "Universidad de La Laguna"@es                      |                                                        |
+---------------------------------------------------------------------------------------------------------------
