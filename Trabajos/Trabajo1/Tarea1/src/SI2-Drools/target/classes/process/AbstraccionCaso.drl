@@ -1,0 +1,311 @@
+package process
+
+//list any import classes here.
+
+import com.relationship.Opcion;
+import com.concept.destino.Destino;
+import com.concept.cliente.Cliente;
+import com.concept.cliente.ClienteAbstracto;
+import com.type.TipoEdad;
+import com.type.Educacion;
+import com.type.Interes;
+
+//declare any global variables here
+
+
+rule "Inicializar Memoria con Opciones"
+	ruleflow-group "initialize"
+	when
+		$cliente: Cliente()
+		$destino: Destino()
+	then
+		Opcion op = new Opcion();
+		op.setCliente($cliente);
+		op.setDestino($destino);
+		insert(op);
+		System.out.println("Opcion ===> "
+		+ "Cliente : " + op.getCliente().getInfoPersonal().getNombre() + ", "
+		+ "Destino : " + op.getDestino().getDestino() + ", "
+		+ "Fecha : " + op.getFecha().toString());
+end
+
+rule "Cliente Adulto-Joven"
+	ruleflow-group "abstract"
+	lock-on-active true
+    when
+        $cliente: Cliente(infoPersonal.edad <= 30)
+    then
+        modify($cliente) { 
+        	setTipoEdad(TipoEdad.ADULTO_JOVEN);
+        };
+        System.out.println("Regla \"Cliente Adulto-Joven\" ===> " 
+        + "Nombre : " + $cliente.getInfoPersonal().getNombre() + ", "
+        + "TipoEdad : " + $cliente.getTipoEdad());
+end
+
+
+rule "Cliente Adulto"
+	ruleflow-group "abstract"
+	lock-on-active true
+	when
+		$cliente: Cliente(infoPersonal.edad > 30 && infoPersonal.edad <= 60)
+	then
+		modify($cliente) { 
+			setTipoEdad(TipoEdad.ADULTO);
+		};
+		System.out.println("Regla \"Cliente Adulto\" ===> " 
+        + "Nombre : " + $cliente.getInfoPersonal().getNombre() + ", "
+        + "TipoEdad : " + $cliente.getTipoEdad());
+end
+
+rule "Cliente Tercera Edad"
+	ruleflow-group "abstract"
+	lock-on-active true
+	when
+		$cliente: Cliente(infoPersonal.edad > 60)
+	then
+		modify($cliente) { 
+			setTipoEdad(TipoEdad.TERCERA_EDAD);
+		};
+		System.out.println("Regla \"Cliente Tercera Edad\" ===> " 
+        + "Nombre : " + $cliente.getInfoPersonal().getNombre() + ", "
+        + "TipoEdad : " + $cliente.getTipoEdad());
+end
+
+rule "Ajuste Fisico Adulto-Joven"
+	ruleflow-group "abstract"
+	lock-on-active true
+    when
+        $cliente: Cliente(infoPersonal.edad <= 30, $fisico: fisico)
+        
+    then
+        modify($cliente) { 
+        	setFisico($fisico + 2);
+        };
+        System.out.println("Regla \"Ajuste Fisico Adulto-Joven\" ===> " 
+        + "Nombre : " + $cliente.getInfoPersonal().getNombre() + ", "
+        + "Fisico : " + $cliente.getFisico());
+end
+
+rule "Ajuste Fisico Adulto"
+	ruleflow-group "abstract"
+	lock-on-active true
+    when
+        $cliente: Cliente(infoPersonal.edad > 30 && infoPersonal.edad <= 60, $fisico: fisico)       
+    then
+        modify($cliente) { 
+        	setFisico($fisico + 1);
+        };
+        System.out.println("Regla \"Ajuste Fisico Adulto\" ===> " 
+        + "Nombre : " + $cliente.getInfoPersonal().getNombre() + ", "
+        + "Fisico : " + $cliente.getFisico());
+end
+
+rule "Ajuste Fisico Tercera Edad"
+	ruleflow-group "abstract"
+	lock-on-active true
+    when
+		$cliente: Cliente(infoPersonal.edad > 60, $fisico: fisico)
+    then
+        modify($cliente) { 
+        	setFisico($fisico);
+        };
+        System.out.println("Regla \"Ajuste Fisico Tercera Edad\" ===> " 
+        + "Nombre : " + $cliente.getInfoPersonal().getNombre() + ", "
+        + "Fisico : " + $cliente.getFisico());
+end
+
+rule "Ajuste Fisico Discapacidad"
+	ruleflow-group "abstract"
+	lock-on-active true
+	when
+		$cliente: Cliente(infoPersonal.discapacidad, $fisico: fisico)
+	then
+		modify($cliente) { 
+			setFisico($fisico - 1);
+		};
+		System.out.println("Regla \"Ajuste Fisico Discapacidad\" ===> " 
+        + "Nombre : " + $cliente.getInfoPersonal().getNombre() + ", "
+        + "Discapacidad : " + $cliente.getInfoPersonal().isDiscapacidad() + ", "
+        + "Fisico : " + $cliente.getFisico());
+end
+
+rule "Ajuste Fisico Hijos"
+	ruleflow-group "abstract"
+	lock-on-active true
+	when
+		$cliente: Cliente(infoPersonal.hijos > 0, $fisico: fisico)
+	then
+		modify($cliente) { 
+			setFisico($fisico - 1);
+		};
+		System.out.println("Regla \"Ajuste Fisico Hijos\" ===> " 
+        + "Nombre : " + $cliente.getInfoPersonal().getNombre() + ", "
+        + "#Hijos : " + $cliente.getInfoPersonal().getHijos() + ", "
+        + "Fisico : " + $cliente.getFisico());
+end
+
+rule "Ajuste Entretenimiento Hijos"
+	ruleflow-group "abstract"
+	lock-on-active true
+	when
+		$cliente: Cliente(infoPersonal.hijos > 0, $entretenimiento: entretenimiento)
+	then
+		modify($cliente) { 
+			setEntretenimiento($entretenimiento + 3);
+		};
+		System.out.println("Regla \"Ajuste Entretenimiento Hijos\" ===> " 
+        + "Nombre : " + $cliente.getInfoPersonal().getNombre() + ", "
+        + "#Hijos : " + $cliente.getInfoPersonal().getHijos() + ", "
+        + "Entretenimiento : " + $cliente.getEntretenimiento());
+end
+
+rule "Ajuste Entretenimiento Adulto-Joven"
+	ruleflow-group "abstract"
+	lock-on-active true
+	when
+		$cliente: Cliente(infoPersonal.edad <= 30, $entretenimiento: entretenimiento)
+	then
+		modify($cliente) { 
+			setEntretenimiento($entretenimiento + 3);
+		};
+		System.out.println("Regla \"Ajuste Entretenimiento Adulto-Joven\" ===> " 
+        + "Nombre : " + $cliente.getInfoPersonal().getNombre() + ", "
+        + "TipoEdad : " + $cliente.getTipoEdad() + ", "
+        + "Entretenimiento : " + $cliente.getEntretenimiento());
+end
+
+rule "Ajuste Entretenimiento Adulto"
+	ruleflow-group "abstract"
+	lock-on-active true
+	when
+		$cliente: Cliente(infoPersonal.edad > 30 && infoPersonal.edad <= 60, $entretenimiento: entretenimiento)
+	then
+		modify($cliente) { 
+			setEntretenimiento($entretenimiento + 2);
+		};
+		System.out.println("Regla \"Ajuste Entretenimiento Adulto\" ===> " 
+        + "Nombre : " + $cliente.getInfoPersonal().getNombre() + ", "
+        + "TipoEdad : " + $cliente.getTipoEdad() + ", "
+        + "Entretenimiento : " + $cliente.getEntretenimiento());
+end
+
+rule "Ajuste Entretenimiento Tercera Edad"
+	ruleflow-group "abstract"
+	lock-on-active true
+	when
+		$cliente: Cliente(infoPersonal.edad > 60, $entretenimiento: entretenimiento)
+	then
+		modify($cliente) { 
+			setEntretenimiento($entretenimiento);
+		};
+		System.out.println("Regla \"Ajuste Entretenimiento Tercera Edad\" ===> " 
+        + "Nombre : " + $cliente.getInfoPersonal().getNombre() + ", "
+        + "TipoEdad : " + $cliente.getTipoEdad() + ", "
+        + "Entretenimiento : " + $cliente.getEntretenimiento());
+end
+
+rule "Ajuste Cultura Educacion Sin Estudios"
+	ruleflow-group "abstract"
+	lock-on-active true
+	when
+		$cliente: Cliente(infoPersonal.educacion == Educacion.SIN_ESTUDIOS, $cultura: cultura)
+	then
+		modify($cliente) { 
+			setCultura($cultura);
+		};
+		System.out.println("Regla \"Ajuste Cultura Educacion Sin Estudios\" ===> " 
+        + "Nombre : " + $cliente.getInfoPersonal().getNombre() + ", "
+        + "Educacion : " + $cliente.getInfoPersonal().getEducacion() + ", "
+        + "Cultura : " + $cliente.getCultura());
+end
+
+rule "Ajuste Cultura Educacion Primaria"
+	ruleflow-group "abstract"
+	lock-on-active true
+	when
+		$cliente: Cliente(infoPersonal.educacion == Educacion.PRIMARIA, $cultura: cultura)
+	then
+		modify($cliente) { 
+			setCultura($cultura + 1);
+		};
+		System.out.println("Regla \"Ajuste Cultura Educacion Primaria\" ===> " 
+        + "Nombre : " + $cliente.getInfoPersonal().getNombre() + ", "
+        + "Educacion : " + $cliente.getInfoPersonal().getEducacion() + ", "
+        + "Cultura : " + $cliente.getCultura());
+end
+
+rule "Ajuste Cultura Educacion Secundaria-Bachillerato"
+	ruleflow-group "abstract"
+	lock-on-active true
+	when
+		$cliente: Cliente(infoPersonal.educacion == Educacion.SECUNDARIA || infoPersonal.educacion == Educacion.BACHILLERATO, $cultura: cultura)
+	then
+		modify($cliente) { 
+			setCultura($cultura + 2);
+		};
+		System.out.println("Regla \"Ajuste Cultura Educacion Secundaria-Bachillerato\" ===> " 
+        + "Nombre : " + $cliente.getInfoPersonal().getNombre() + ", "
+        + "Educacion : " + $cliente.getInfoPersonal().getEducacion() + ", "
+        + "Cultura : " + $cliente.getCultura());
+end
+
+rule "Ajuste Cultura Educacion Universitaria"
+	ruleflow-group "abstract"
+	lock-on-active true
+	when
+		$cliente: Cliente(infoPersonal.educacion == Educacion.UNIVERSITARIO, $cultura: cultura)
+	then
+		modify($cliente) { 
+			setCultura($cultura + 3);
+		};
+		System.out.println("Regla \"Ajuste Cultura Educacion Universitaria\" ===> " 
+        + "Nombre : " + $cliente.getInfoPersonal().getNombre() + ", "
+        + "Educacion : " + $cliente.getInfoPersonal().getEducacion() + ", "
+        + "Cultura : " + $cliente.getCultura());
+end
+
+rule "Ajuste Fisico Interes"
+	ruleflow-group "abstract"
+	lock-on-active true
+	when
+		$cliente: Cliente(infoPersonal.intereses contains Interes.DEPORTIVO, $fisico: fisico)
+	then
+		modify($cliente) { 
+			setFisico($fisico + 1);
+		};
+		System.out.println("Regla \"Ajuste Fisico Interes\" ===> " 
+        + "Nombre : " + $cliente.getInfoPersonal().getNombre() + ", "
+        + "Interes : " + $cliente.getInfoPersonal().getIntereses() + ", "
+        + "Fisico : " + $cliente.getFisico());
+end
+
+rule "Ajuste Cultura Interes"
+	ruleflow-group "abstract"
+	lock-on-active true
+	when
+		$cliente: Cliente(infoPersonal.intereses contains Interes.CULTURAL, $cultura: cultura)
+	then
+		modify($cliente) { 
+			setCultura($cultura + 1);
+		};
+		System.out.println("Regla \"Ajuste Cultura Interes\" ===> " 
+        + "Nombre : " + $cliente.getInfoPersonal().getNombre() + ", "
+        + "Interes : " + $cliente.getInfoPersonal().getIntereses() + ", "
+        + "Cultura : " + $cliente.getCultura());
+end
+
+rule "Ajuste Entretenimiento Interes"
+	ruleflow-group "abstract"
+	lock-on-active true
+	when
+		$cliente: Cliente(infoPersonal.intereses contains Interes.ENTRETENIMIENTO, $entretenimiento: entretenimiento)
+	then
+		modify($cliente) { 
+			setEntretenimiento($entretenimiento + 1);
+		};
+		System.out.println("Regla \"Ajuste Entretenimiento Interes\" ===> " 
+        + "Nombre : " + $cliente.getInfoPersonal().getNombre() + ", "
+        + "Interes : " + $cliente.getInfoPersonal().getIntereses() + ", "
+        + "Entretenimiento : " + $cliente.getEntretenimiento());
+end

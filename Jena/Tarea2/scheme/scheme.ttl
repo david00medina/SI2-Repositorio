@@ -1,0 +1,33 @@
+@prefix tweetanalyzer: <http://www.tweetanalyzer.com/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+tweetanalyzer:Tweet 
+    rdf:type rdfs:Class.
+
+tweetanalyzer:Persona 
+    rdf:type rdfs:Class.
+
+tweetanalyzer:UsuarioLocalizado
+    rdfs:subClassOf tweetanalyzer:Persona.
+
+tweetanalyzer:respuesta_a
+    rdfs:domain     tweetanalyzer:TweetRespuesta .
+
+tweetanalyzer:apellido
+    rdfs:domain     tweetanalyzer:Persona ;
+    rdfs:subPropertyOf    tweetanalyzer:nombre.
+
+tweetanalyzer:ubicacion
+    rdfs:domain     tweetanalyzer:UsuarioLocalizado .
+
+tweetanalyzer:id_tweet
+    rdfs:domain     tweetanalyzer:Tweet .
+
+tweetanalyzer:TweetRespuesta
+    rdfs:subClassOf tweetanalyzer:Tweet .
+
+tweetanalyzer:fecha_creacion
+    rdfs:domain    tweetanalyzer:Tweet ;
+    rdfs:range    xsd:date .

@@ -1,0 +1,157 @@
+package process
+
+//list any import classes here.
+
+import java.util.List;
+import com.relationship.Opcion;
+import com.concept.destino.Destino;
+import com.concept.criterion.CondicionFisica;
+import com.concept.criterion.CondicionCultural;
+import com.concept.criterion.CondicionEntretenimiento;
+import com.concept.criterion.CondicionEdad;
+import com.concept.criterion.CondicionLinguistica;
+import com.concept.criterion.CondicionSolvencia;
+import com.concept.criterion.CondicionAtractivo;
+import com.type.TipoEdad;
+import function com.util.Helper.*;
+
+//declare any global variables here
+
+rule "Criterio Condicion Fisica"
+	ruleflow-group "evaluate"
+    when
+        Opcion($cliente: cliente, $destino: destino)
+        eval($cliente.getFisico() >= $destino.getUmbralFisico())
+        $criterio: CondicionFisica(cumpleCriterio == false, destino == $destino)
+    then
+    	modify($criterio) {
+			setCumpleCriterio(true);
+		}
+		
+        System.out.println("Regla \"Criterio Condicion Física\" ===> "
+        + "Nombre : " + $cliente.getInfoPersonal().getNombre() + ", "
+        + "Destino : " + $destino.getDestino() + ", "
+        + "Fisico : " + $cliente.getFisico() + ", "
+        + "Umbral Fisico : " + $destino.getUmbralFisico() + ", "
+        + "Condicion Fisica : " + $criterio.isCumpleCriterio());
+end
+
+rule "Criterio Condicion Cultural"
+	ruleflow-group "evaluate"
+    when
+        Opcion($cliente: cliente, $destino: destino)
+        eval($cliente.getCultura() >= $destino.getUmbralCultural())
+        $criterio: CondicionCultural(cumpleCriterio == false, destino == $destino)
+    then
+        modify($criterio) {
+			setCumpleCriterio(true);
+		}
+		
+        System.out.println("Regla \"Criterio Condicion Cultural\" ===> "
+        + "Nombre : " + $cliente.getInfoPersonal().getNombre() + ", "
+        + "Destino : " + $destino.getDestino() + ", "
+        + "Cultura : " + $cliente.getCultura() + ", "
+        + "Umbral Cultrual : " + $destino.getUmbralCultural() + ", "
+        + "Condicion Cultural : " + $criterio.isCumpleCriterio());
+end
+
+rule "Criterio Condicion Entretenimiento"
+	ruleflow-group "evaluate"
+	when
+		Opcion($cliente: cliente, $destino: destino)
+		eval($cliente.getEntretenimiento() >= $destino.getUmbralEntretenimiento())
+        $criterio: CondicionEntretenimiento(cumpleCriterio == false, destino == $destino)
+	then
+		modify($criterio) {
+			setCumpleCriterio(true);
+		}
+		
+        System.out.println("Regla \"Criterio Condicion Entretenimiento\" ===> "
+        + "Nombre : " + $cliente.getInfoPersonal().getNombre() + ", "
+        + "Destino : " + $destino.getDestino() + ", "
+        + "Entretenimiento : " + $cliente.getEntretenimiento() + ", "
+        + "Umbral Entretenimiento : " + $destino.getUmbralEntretenimiento() + ", "
+        + "Condicion Entretenimiento : " + $criterio.isCumpleCriterio());
+end
+
+rule "Criterio Condicion Edad"
+	ruleflow-group "evaluate"
+	when
+		Opcion($cliente: cliente, $destino: destino)
+		eval(has((List<Object>)(Object)$destino.getRecomendacionEdad(), (Object)$cliente.getTipoEdad()))
+        $criterio: CondicionEdad(cumpleCriterio == false, destino == $destino)
+	then
+		modify($criterio) {
+			setCumpleCriterio(true);
+		}
+		
+        System.out.println("Regla \"Criterio Condicion Edad\" ===> "
+        + "Nombre : " + $cliente.getInfoPersonal().getNombre() + ", "
+        + "Destino : " + $destino.getDestino() + ", "
+        + "Edad Cliente : " + $cliente.getTipoEdad() + ", "
+        + "Edades Recomendadas : " + $destino.getUmbralEntretenimiento() + ", "
+        + "Condicion Entretenimiento : " + $criterio.isCumpleCriterio());
+end
+
+
+rule "Criterio Condicion Linguistica"
+	ruleflow-group "evaluate"
+	when
+		Opcion($cliente: cliente, $destino: destino)
+		eval(intersectionCardinality((List<Object>)(Object)$cliente.getInfoPersonal().getIdioma(), (List<Object>)(Object)$destino.getIdioma()) >= 1)
+		$criterio: CondicionLinguistica(cumpleCriterio == false, destino == $destino)
+	then
+		int card = intersectionCardinality((List<Object>)(Object)$cliente.getInfoPersonal().getIdioma(), (List<Object>)(Object)$destino.getIdioma());
+		modify($criterio) {
+			setCumpleCriterio(true);
+		}
+		
+        System.out.println("Regla \"Criterio Condicion Linguistica\" ===> "
+        + "Nombre : " + $cliente.getInfoPersonal().getNombre() + ", "
+        + "Destino : " + $destino.getDestino() + ", "
+        + "Idiomas Cliente : " + $cliente.getInfoPersonal().getIdioma() + ", "
+        + "Idiomas Pais : " + $destino.getIdioma() + ", "
+        + "Cardinalidad interseccion : " + card + ", "
+        + "Condicion Linguisitica : " + $criterio.isCumpleCriterio());
+end
+
+rule "Criterio Condicion Solvencia"
+	ruleflow-group "evaluate"
+	when
+		$op: Opcion($cliente: cliente, $destino: destino)
+		eval($cliente.getInfoEconomica().getCosteMax() >= $destino.getCoste() && !$cliente.getInfoEconomica().isImpagosPrevios())
+		$criterio: CondicionSolvencia(cumpleCriterio == false, destino == $destino)
+	then
+		modify($criterio) {
+			setCumpleCriterio(true);
+		}
+		
+        System.out.println("Regla \"Criterio Condicion Solvencia\" ===> "
+        + "Nombre : " + $cliente.getInfoPersonal().getNombre() + ", "
+        + "Destino : " + $destino.getDestino() + ", "
+        + "Coste Max : " + $cliente.getInfoEconomica().getCosteMax() + ", "
+        + "Impagos Previos : " + $cliente.getInfoEconomica().isImpagosPrevios() + ", "
+        + "Coste Pais : " + $destino.getCoste() + ", "
+        + "Condicion Solvencia : " + $criterio.isCumpleCriterio());
+end
+
+rule "Criterio Condicion Atractivo"
+	ruleflow-group "evaluate"
+	when
+		Opcion($cliente: cliente, $destino: destino)
+		eval(intersectionCardinality((List<Object>)(Object)$cliente.getInfoPersonal().getIntereses(), (List<Object>)(Object)$destino.getAtractivoTuristico()) >= 1)
+		$criterio: CondicionAtractivo(cumpleCriterio == false, destino == $destino)
+	then
+		int card = intersectionCardinality((List<Object>)(Object)$cliente.getInfoPersonal().getIdioma(), (List<Object>)(Object)$destino.getIdioma());
+		modify($criterio) {
+			setCumpleCriterio(true);
+		}
+		
+        System.out.println("Regla \"Criterio Condicion Atractivo\" ===> "
+        + "Nombre : " + $cliente.getInfoPersonal().getNombre() + ", "
+        + "Destino : " + $destino.getDestino() + ", "
+        + "Intereses Cliente : " + $cliente.getInfoPersonal().getIntereses() + ", "
+        + "Atractivo Turistico : " + $destino.getAtractivoTuristico() + ", "
+        + "Cardinalidad interseccion : " + card + ", "
+        + "Condicion Atractivo : " + $criterio.isCumpleCriterio());
+end

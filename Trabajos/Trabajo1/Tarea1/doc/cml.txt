@@ -1,0 +1,515 @@
+KNOWLEDGE-MODEL KM-Valoracion-Turistica
+	DOMAIN-KNOWLEDGE DK-Valoracion-Turistica
+	
+  	/* esquemas del dominio (definiciones) */
+		DOMAIN-SCHEMA DS-Valoracion-Turistica
+			CONCEPT cliente-abstracto
+				DESCRIPTION: “Abstracción del tipo de cliente”
+				SUPER-TYPE-OF: cliente
+				ATTRIBUTES:
+					tipo-edad: Tipo-Edad
+					fisico: NATURAL
+						RANGE: (1, 5)
+						DEFAULT: 1;
+					cultura: NATURAL
+						RANGE: (1, 5) 
+						DEFAULT: 1;
+					entretenimiento: NATURAL
+						RANGE: (1,5) 
+						DEFAULT: 1;
+			END CONCEPT cliente-abstracto
+
+			CONCEPT cliente
+				DESCRIPTION: “Información general de un cliente concreto”
+				SUB-TYPE-OF: cliente-abstracto
+				HAS-PARTS: info-personal, info-economica
+	 		END CONCEPT cliente
+
+			CONCEPT info-personal
+				DESCRIPTION: “Información personal del cliente”
+				PART-OF: cliente
+				ATTRIBUTES:
+					nombre: STRING;
+					edad: NATURAL;
+					hijos: NATURAL;
+					discapacidad: BOOLEAN;
+					idioma: Idioma
+						CARDINALITY: 1+;
+					interes: Interes 
+						CARDINALITY: (1, 3);
+					educacion: Educacion;
+				AXIOMS:
+					edad >= 18
+	 		END CONCEPT info-personal
+
+			CONCEPT info-economica
+				DESCRIPTION: “Información económica del cliente”
+				PART-OF: cliente
+				ATTRIBUTES:
+					impagos-previos: BOOLEAN;
+					coste-max: FLOAT;
+	 		END CONCEPT info-economica
+
+			VALUE-TYPE Tipo-Edad
+				TYPE: ORDINAL
+				VALUE-LIST: {Adulto-Joven, Adulto, Tercera-Edad}
+			END VALUE-TYPE Tipo-Edad
+
+			VALUE-TYPE Interes
+				TYPE: NOMINAL
+				VALUE-LIST: {Deportivo, Cultural, Entretenimiento}
+			END VALUE-TYPE Interes
+
+			VALUE-TYPE Educacion
+				TYPE: ORDINAL
+				VALUE-LIST: {Sin-Estudios, Primaria, Secundaria, Bachillerato, Universitario}
+			END VALUE-TYPE Educacion
+
+			VALUE-TYPE Idioma
+				TYPE: ORDINAL
+				VALUE-LIST: {Español, Ingles, Polaco, Ruso, Chino, Japones, Coreano, Tailandes, Frances, Aleman, Hungaro, Turco, Griego, Italiano, Noruego, Sueco, Finlandes, Eslovaco, Hindu}
+			END VALUE-TYPE Idioma
+
+			CONCEPT país
+				DESCRIPTION: “País de destino turístico”
+				SUPER-TYPE-OF: destino
+				ATTRIBUTES:
+					pais: STRING;
+					coste: FLOAT;
+					idioma: Idioma
+						CARDINALITY: 1+;
+			END CONCEPT pais
+
+			CONCEPT destino
+				DESCRIPTION: “Destino turístico”
+				SUB-TYPE-OF: pais
+				ATTRIBUTES:
+					destino: STRING;
+					recomendacion-edad: Tipo-Edad
+						CARDINALITY: 1+;
+					atractivo-turistico: Interes;
+						CARDINALITY: 1+
+					umbral-fisica: NATURAL
+						RANGE: (1, 5)
+						DEFAULT: 1;
+					umbral-cultural: NATURAL
+						RANGE: (1, 5)
+						DEFAULT: 1;
+					umbral-entretenimiento: NATURAL
+						RANGE: (1, 5)
+						DEFAULT: 1;
+			END CONCEPT destinos
+
+			CONCEPT resultado-valoracion
+				DESCRIPTION: “Resultado de la valoración de destinos turísticos para un cliente arbitrario”
+				ATTRIBUTES:
+					resultado: BOOLEAN
+						DEFAULT: FALSE;
+			END CONCEPT resultado-valoracion
+
+			BINARY-RELATION opcion
+				DESCRIPTION: “Establece los posibles destinos turísticos para un cliente cualquiera”
+				ARGUMENT-1: cliente
+					CARDINALITY: 1+
+				ARGUMENT-2: destino
+					CARDINALITY: 1+
+				ATTRIBUTES:
+					fecha: DATE
+						DEFAULT: NOW();
+			END BINARY-RELATION opcion
+
+			CONCEPT criterio-destino
+				DESCRIPTION: “Establece de forma genérica si una opción de destino turístico puede ser aplicable a un perfil de cliente determinado”
+				SUPER-TYPE-OF: condición-fisica, condición-lingüística, condición-solvencia,  condición-atractivo, condición-cultural, condición-entretenimiento
+				ATTRIBUTES:
+					cumple-criterio: BOOLEAN
+						DEFAUL: FALSE;
+			END CONCEPT criterio-destino
+
+			CONCEPT condicion-fisica
+				DESCRIPTION: “Criterio de cumplimiento de exigencias físicas mínimas que exige la actividad”
+				SUB-TYPE-OF: criterio-destino
+			END CONCEPT condicion-fisica
+
+			CONCEPT condicion-linguistica
+				DESCRIPTION: “Criterio que evalúa la capacidad lingüística del cliente para hablar en el idioma local del destino propuesto”
+				SUB-TYPE-OF: criterio-destino
+			END CONCEPT condicion-linguistica
+
+			CONCEPT condicion-solvencia
+				DESCRIPTION: “Establece la capacidad de solvencia del cliente”
+				SUB-TYPE-OF: criterio-destino
+			END CONCEPT condicion-solvencia
+
+			CONCEPT condicion-edad
+				DESCRIPTION: “Criterio que evalúa si un destino está disponible para un cierto grupo de edad”
+				SUB-TYPE-OF: criterio-destino
+			END CONCEPT condicion-edad
+
+			CONCEPT condicion-atractivo
+				DESCRIPTION: “Define el interés de un cliente a un destino dado”
+				SUB-TYPE-OF: criterio-destino
+			END CONCEPT condicion-atractivo
+
+			CONCEPT condicion-cultural
+				DESCRIPTION: “Estudia la apetencia cultural de un cliente”
+				SUB-TYPE-OF: criterio-destino
+			END CONCEPT condicion-cultural
+
+			CONCEPT condicion-entretenimiento
+				DESCRIPTION: “Estudia la apetencia por actividades lúdicas por parte de un cliente”
+				SUB-TYPE-OF: criterio-destino
+			END CONCEPT condicion-entretenimiento
+
+
+		/* tipos de conocimiento */			
+			RULE-TYPE abstraccion-caso
+				ANTECEDENT: opcion
+						CARDINALITY: 1+
+				CONSEQUENT: opcion
+						CARDINALITY: 1+
+				CONECTION-SYMBOL: has-abstraction
+			END RULE-TYPE abstraccion-caso
+
+			RULE-TYPE requisito-recomendacion
+				ANTECEDENT: opcion
+						CARDINALITY: 1+
+				CONSEQUENT: criterio-destino
+						CARDINALITY: 1
+				CONECTION-SYMBOL: indicates
+			END RULE-TYPE requisito-recomendacion
+
+			RULE-TYPE regla-decision-recomendacion
+				ANTECEDENT: criterio-destino
+				CONSEQUENT: resultado-valoracion
+				CONECTION-SYMBOL: implies
+			END RULE-TYPE regla-decision-recomendacion
+
+		END DOMAIN-SCHEMA DS-Valoracion-Turistica
+
+		
+
+	/* bases de conocimiento (instancias y reglas) */
+		KNOWLEDGE-BASE KB-Descripcion-Sistema
+			/* Abstracciones */
+			USES:
+				abstraccion-caso FROM DS-Valoracion-Turistica;
+			EXPRESIONS:
+
+				/* Abstrae el tipo de edad del cliente */
+				“Regla cliente-Adulto-Joven: Se considera un cliente adulto-joven cuando es menor de 30 años”
+				cliente.info-personal.edad <= 30
+					HAS-ABSTRACTION
+				cliente-abstracto.tipo-edad := Adulto-Joven;
+
+				“Regla cliente-Adulto: Un cliente es adulto cuando su rango de edad está comprendido entre los 30 y 60 años”
+				cliente.info-personal.edad > 30
+					AND
+				cliente.info-personal.edad <= 60
+					HAS-ABSTRACTION
+				cliente-abstracto.tipo-edad := Adulto;
+
+				“Regla cliente-Tercera-Edad: Un cliente es considerado de la tercera edad tiene como mínimo 60 años”
+				cliente.info-personal.edad > 60
+					HAS-ABSTRACTION
+				cliente-abstracto.tipo-edad := Tercera-Edad;
+
+				
+				/* Abstrae los atributos físicos generales del cliente */
+				“Regla Ajuste-Fisico-Adulto-Joven: Define la capacidad física de un cliente Adulto-Joven”
+				cliente.info-personal.edad <= 30
+					HAS-ABSTRACTION
+				cliente-abstracto.fisico := cliente-abstracto.fisico + 2;
+
+				“Regla Ajuste-Fisico-Adulto: Define la capacidad física de un cliente adulto”
+				cliente.info-personal.edad > 30
+					AND
+				cliente.info-personal.edad <= 60
+					HAS-ABSTRACTION
+				cliente-abstracto.fisico := cliente-abstracto.fisico + 1;
+
+				“Regla Ajuste-Fisico-Tercera-Edad: Define la capacidad física de un cliente de la tercera edad”
+				cliente.info-personal.edad > 60
+					HAS-ABSTRACTION
+				cliente-abstracto.fisico := cliente-abstracto.fisico;
+
+				“Regla de Ajuste-Fisico-Discapacidad: Define la capacidad física de un cliente discapacitado”
+				cliente.info-personal.discapacidad = TRUE
+					HAS-ABSTRACTION
+				cliente-abstracto.fisico := cliente-abstracto.fisico – 1;
+
+				“Regla de Ajuste-Fisico-Hijos: Define la capacidad física de un cliente si tiene hijos”
+				cliente.info-personal.hijos > 0
+					HAS-ABSTRACTION
+				cliente-abstracto.fisico := cliente-abstracto.fisico – 1;
+
+				
+				/* Abstrae parámetros de interés por entretenimiento */
+				“Regla de Ajuste-Entretenimiento-Hijos: Define la apetencia por actividades lúdicas de un cliente si tiene hijos”
+				cliente.info-personal.hijos > 0
+					HAS-ABSTRACTION
+				cliente-abstracto.entretenimiento := cliente-abstracto.entretenimiento + 3;
+
+				“Regla Ajuste-Entretenimiento-Adulto-Joven: Establece la apetencia por actividades lúdicas de un cliente Adulto-Joven”
+				cliente.info-personal.edad <= 30
+					HAS-ABSTRACTION
+				cliente-abstracto.entretenimiento := cliente-abstracto.entretenimiento + 3;
+
+				“Regla Ajuste-Entretenimiento-Adulto: Establece la apetencia por actividades lúdicas de un cliente Adulto”
+				cliente.info-personal.edad > 30
+					AND
+				cliente.info-personal.edad <= 60
+					HAS-ABSTRACTION
+				cliente-abstracto.entretenimiento := cliente-abstracto.entretenimiento + 2;
+
+				“Regla Ajuste-Entretenimiento-Tecera-Edad: Establece la apetencia por actividades lúdicas por un cliente de la tercera edad”
+				cliente.info-personal.edad > 60
+					HAS-ABSTRACION
+				cliente-abstracto.entretenimiento := cliente-abstracto.entretenimiento;
+
+				/* Abstrae parámetros de interés cultural */
+				“Regla Ajuste-Cultural-Educacion-Sin-Estudios: Establece puntuación cultural para un cliente sin estudios”
+				cliente.info-personal.educacion := Sin-Estudios
+					HAS-ABSTRACTION
+				cliente-abstracto.cultura = cliente-abstracto.cultura;
+
+				“Regla Ajuste-Cultural-Educacion- Primaria: Establece puntuación cultural para un cliente con la Primaria finalizada”
+				cliente.info-personal.educacion := Primaria
+					HAS-ABSTRACTION
+				cliente-abstracto.cultura = cliente-abstracto.cultura + 1;
+
+				“Regla Ajuste-Cultural-Educacion-Secundaria-Bachillerato: Establece puntuación para un cliente con educación secundaria o bachillerato finalizada”
+				cliente.info-personal.educacion := Secundaria
+					OR
+				cliente.info-personal.educacion = Bachillerato
+					HAS-ABSTRACTION
+				cliente-abstracto.cultura := cliente-abstracto.cultura + 2;
+
+				“Regla Ajuste-Cultural-Educacion-Universitaria: Establece puntuación para un cliente con estudios universitarios finalizados”
+				cliente.info-personal.educacion = Universitario
+					HAS-ABSTRACTION
+				cliente-abstracto.cultura := cliente-abstracto.cultura + 3;
+
+		“Regla Ajuste-Fisico-Interes: Ajusta la puntuación física dependiendo del interés del cliente por actividades deportivas”
+		cliente.info-personal.interes = Deportivo
+			HAS-ABSTRACTION
+		cliente-abstracto.fisico := cliente-abstracto.fisico + 1;
+
+		“Regla Ajuste-Cultura-Interes: Ajusta la puntuación cultural dependiendo del interés del cliente por actividades culturales”
+		cliente.info-personal.interes = Cultural
+			HAS-ABSTRACTION
+		cliente-abstracto.cultural := cliente-abstracto.cultural + 1;
+
+		“Regla Ajuste-Entretenimiento-Interes: Ajusta la puntuación cultural dependiendo del interés del cliente por actividades lúdicas”
+		cliente.info-personal.interes = Entretenimiento
+			HAS-ABSTRACTION
+		cliente-abstracto.entretenimiento := cliente-abstracto.entretenimiento + 1;
+
+		END KNOWLEDGE-BASE KB-Descripcion-Sistema;
+
+
+		
+		
+		KNOWLEDGE-BASE KB-Medida-Sistema
+			USES:
+				requisito-recomendacion FROM DS-Valoracion-Turistica,
+				regla-decision-recomendacion FROM DS-Valoracion-Turistica;
+			EXPRESIONS:				
+				/* Criterios del destino */ 
+				“Regla criterio-condicion-fisica: Comprueba que el cliente cumpla con el mínimo de exigencia física”
+				cliente-abstracto.fisico >= destino.umbral-fisico
+					INDICATES
+				Condición-fisica.cumple-criterio := TRUE;
+
+				“Regla criterio-condicion-cultural: Comprueba que el cliente cumpla con el mínimo de carga cultural que exige el destino propuesto”
+			cliente-abstracto.cultura >= destino.umbral-cultural
+				INDICATES
+			Condición-cultural.cumple-criterio := TRUE;
+
+				“Regla criterio-condicion-entretenimiento: Comprueba que el cliente cumpla con el mínimo de interés lúdico del destino”
+			cliente-abstracto.entretenimiento >= destino.umbral-entretenimiento
+				INDICATES
+			Condición-entretenimiento.cumple-criterio := TRUE;
+
+				“Regla criterio-condicion-edad: Comprueba si un destino está disponible para el grupo de edad al que pertenece el destino”
+			HAS (destino.recomendacion-edad, cliente-abstracto.tipo-edad);
+				INDICATES
+			Condición-edad.cumple-criterio := TRUE; 
+				
+				“Regla criterio-condicion-lingüística: Comprueba que el cliente al menos hable un idioma local del destino propuesto”
+				INTERSECTION(cliente.info-personal.idioma, pais.idioma).length >= 1
+					INDICATES
+				Condicion-linguistica.cumple-criterio := TRUE;
+
+				“Regla criterio-condicion-solvencia: Comprueba que un cliente sea solvente para una actividad propuesta”
+				info-economica.coste-max >= país.coste
+					AND
+				Info-economica.impagos-previos != TRUE
+					INDICATES
+				Condición-solvencia.cumple-criterio := TRUE;
+
+			“Regla criterio-condicion-atractivo: Comprueba que el destino contenga al menos un atractivo para el cliente”
+			INTERSECTION(cliente.info-personal.interes, destino.atractivo).length >= 1
+				INDICATES
+			Condicion-atractivo.cumple-criterio := TRUE; 
+
+			/* Reglas de decisión */
+			“Regla decisión-1: Se cumple todos los requisitos físicos, culturales y de entretenimiento mínimo que exige el destino, así como si el cliente pertenece al grupo de edad para el que está diseñado el destino. Debe existir al menos un interés personal del cliente por el destino”
+			Condición-fisica.cumple-criterio = TRUE
+				AND
+			Condición-lingüística.cumple-criterio = TRUE
+				AND
+			Condición-solvencia.cumple-criterio = TRUE
+				AND
+			Condición-atractivo.cumple-criterio = TRUE
+				AND
+			Condición-cultural.cumple-criterio = TRUE
+				AND
+			Condición-entretenimiento.cumple-criterio = TRUE
+				AND
+			Condición-edad.cumple-criterio = TRUE
+				IMPLIES
+			Resultado-valoracion.resultado := TRUE;
+
+
+			“Regla decisión-2: No se cumple ninguno de los requisitos físicos, culturales y de entretenimiento mínimo que exige el destino, así como si el cliente pertenece al grupo de edad para el que está diseñado el destino. Debe existir al menos un interés personal del cliente por el destino”
+			Condición-fisica.cumple-criterio = TRUE
+				AND
+			Condición-lingüística.cumple-criterio = TRUE
+				AND
+			Condición-solvencia.cumple-criterio = TRUE
+				AND
+			Condición-atractivo.cumple-criterio = TRUE
+				AND
+			Condición-cultural.cumple-criterio = TRUE
+				AND
+			Condición-entretenimiento.cumple-criterio = TRUE
+				AND
+			Condición-edad.cumple-criterio = TRUE
+				IMPLIES
+			Resultado-valoracion.resultado := TRUE;
+					
+		END KNOWLEDGE-BASE KB-Medida-Sistema
+	END DOMAIN-KNOWLEDGE
+ 
+	INFERENCE-KNOWLEDGE if-Valoracion-Turistica
+		KNOWLEDGE-ROLE case
+			TYPE: DYNAMIC
+			DOMAIN-MAPPING:
+				opcion
+		END KNOWLEDGE-ROLE case
+
+		KNOWLEDGE-ROLE abstracted-case
+			TYPE: DYNAMIC
+			DOMAIN-MAPPING:
+				opcion
+		END KNOWLEDGE-ROLE abstracted-case
+
+		KNOWLEDGE-ROLE norms
+			TYPE: DYNAMIC
+			DOMAIN-MAPPING:
+				SET-OF criterio-destino
+		END KNOWLEDGE-ROLE norms
+
+		KNOWLEDGE-ROLE norm
+			TYPE: DYNAMIC
+			DOMAIN-MAPPING:
+				criterio-destino
+		END KNOWLEDGE-ROLE norm
+
+		KNOWLEDGE-ROLE evaluation-results
+			TYPE: DYNAMIC
+			DOMAIN-MAPPING:
+				SET-OF criterio-destino
+		END KNOWLEDGE-ROLE evaluation-results
+
+		KNOWLEDGE-ROLE norm-value
+			TYPE: DYNAMIC
+			DOMAIN-MAPPING:
+				criterio-destino
+		END KNOWLEDGE-ROLE norm-value
+
+		KNOWLEDGE-ROLE decision
+			TYPE: DYNAMIC
+			DOMAIN-MAPPING:
+				resultado-valoracion
+		END KNOWLEDGE-ROLE decision
+
+
+		KNOWLEDGE-ROLE abstraction-knowledge
+			TYPE: STATIC
+			DOMAIN-MAPPING:
+				abstraccion-caso FROM KB-Descripción-Sistema
+		END KNOWLEDGE-ROLE abstraction-knowledge
+
+		KNOWLEDGE-ROLE norm-set
+			TYPE: STATIC: STATIC
+			DOMAIN-MAPPING:
+				criterio-destino FROM KB-Medida-Sistema
+		END KNOWLEDGE-ROLE norm-set
+
+		KNOWLEDGE-ROLE requirements
+			TYPE: STATIC
+			DOMAIN-MAPPING:
+				requisito-recomendacion FROM KB-Medida-Sistema
+		END KNOWLEDGE-ROLE requirements
+
+		KNOWLEDGE-ROLE decision-knowledge
+			TYPE: STATIC
+			DOMAIN-MAPPING:
+				regla-decision-recomendacion FROM KB-Medida-Sistema
+		END KNOWLEDGE-ROLE decision-knowledge
+
+
+
+		 /* definiciones de las inferencias utilizadas */
+		/* incluir sólo las modificaciones respecto a la estructura estandarizada */
+		INFERENCE abstract
+			ROLES:
+				INPUT: case-description;
+				OUTPUT: abstracted-case;
+				STATIC: abstraction-knowledge;
+			SPECIFICATION: “La entrada es un conjunto de datos de opciones (relación cliente-destino) y su salida es el mismo conjunto con alguna característica abstraída del mismo que puede ser derivada de los datos de entrada del cliente.”;
+		END INFERENCE abstract;
+
+		INFERENCE specify
+			ROLES:
+				INPUT: abstracted-case;
+				OUTPUT: norms;
+				STATIC: norm-set;
+			SPECIFICATION: “Esta inferencia es una simple búsqueda de normas.”;
+		END INFERENCE specify;
+
+		INFERENCE select
+			ROLES:
+				INPUT: norms;
+				OUTPUT: norm;
+			SPECIFICATION: “Selección aleatoria de normas. No se usa ningún dominio del conocimiento en esta inferencia”;
+		END INFERENCE select;
+
+		INFERENCE evaluate
+			ROLES:
+				INPUT: norm, abstracted-case;
+				OUTPUT: norm-value;
+				STATIC: requirements;
+			SPECIFICATION: “Establece el valor de verdad de la norma de entrada para una opción dada.”;
+		END INFERENCE evaluate;
+
+		INFERENCE match
+			ROLES:
+				INPUT: evaluation-results;
+				OUTPUT: decision;
+				STATIC: decision-knowledge;
+			SPECIFICATION: “Comprueba si la evaluación resultante permite una toma de decisión sobre el destino a recomendar. La inferencia falla si no se satisface la evaluación de las condiciones.”;
+		END INFERENCE match;
+
+	END INFERENCE-KNOWLEDGE if-Valoracion-Turistica
+
+	
+	
+	/* tareas */
+	TASK-KNOWLEDGE  tk-Valoracion-Turistica
+		No hay modificaciones respecto al método "assessment"
+	END TASK-KNOWLEDGE  tk-Valoracion-Turistica
+	
+END KNOWLEDGE-MODEL

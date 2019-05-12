@@ -1,0 +1,1043 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.si2.com/destino-turistico#"
+     xml:base="http://www.si2.com/destino-turistico"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:destino-turistico="http://www.si2.com/destino-turistico#">
+    <owl:Ontology rdf:about="http://www.si2.com/destino-turistico">
+        <dc:title>Ontología Destinos Turísticos</dc:title>
+        <terms:contributor>Christian Brito Ramos</terms:contributor>
+        <terms:contributor>David Alberto Medina Medina</terms:contributor>
+        <rdfs:comment xml:lang="es">Ontología de destinos turísticos para la asignatura Sistemas Inteligentes II. 
+
+Universidad de Las Palmas de Gran Canaria.</rdfs:comment>
+        <rdfs:label xml:lang="es">Destinos Turisticos</rdfs:label>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#contiene -->
+
+    <owl:ObjectProperty rdf:about="http://www.si2.com/destino-turistico#contiene">
+        <owl:inverseOf rdf:resource="http://www.si2.com/destino-turistico#perteneceA"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.si2.com/destino-turistico#Pais"/>
+        <rdfs:range rdf:resource="http://www.si2.com/destino-turistico#Destino"/>
+        <rdfs:comment>Los países contienen una serie de posibles destinos turísticos.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#habla -->
+
+    <owl:ObjectProperty rdf:about="http://www.si2.com/destino-turistico#habla">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.si2.com/destino-turistico#Turista"/>
+        <rdfs:range rdf:resource="http://www.si2.com/destino-turistico#Idioma"/>
+        <rdfs:comment>El turista habla un/os idioma/s determinado/s.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#interesadoEn -->
+
+    <owl:ObjectProperty rdf:about="http://www.si2.com/destino-turistico#interesadoEn">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.si2.com/destino-turistico#Turista"/>
+        <rdfs:range rdf:resource="http://www.si2.com/destino-turistico#Actividad"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#perteneceA -->
+
+    <owl:ObjectProperty rdf:about="http://www.si2.com/destino-turistico#perteneceA">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.si2.com/destino-turistico#Destino"/>
+        <rdfs:range rdf:resource="http://www.si2.com/destino-turistico#Pais"/>
+        <rdfs:comment>Un destino pertenece a un país determinado</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#puedeRealizar -->
+
+    <owl:ObjectProperty rdf:about="http://www.si2.com/destino-turistico#puedeRealizar">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.si2.com/destino-turistico#Destino"/>
+        <rdfs:range rdf:resource="http://www.si2.com/destino-turistico#Actividad"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#seAloja -->
+
+    <owl:ObjectProperty rdf:about="http://www.si2.com/destino-turistico#seAloja">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.si2.com/destino-turistico#Turista"/>
+        <rdfs:range rdf:resource="http://www.si2.com/destino-turistico#Estancia"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#seHabla -->
+
+    <owl:ObjectProperty rdf:about="http://www.si2.com/destino-turistico#seHabla">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.si2.com/destino-turistico#Pais"/>
+        <rdfs:range rdf:resource="http://www.si2.com/destino-turistico#Idioma"/>
+        <rdfs:comment>En el país se habla un/os idioma/s determinado/s.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#tiene -->
+
+    <owl:ObjectProperty rdf:about="http://www.si2.com/destino-turistico#tiene">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.si2.com/destino-turistico#Destino"/>
+        <rdfs:range rdf:resource="http://www.si2.com/destino-turistico#Estancia"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#viajaA -->
+
+    <owl:ObjectProperty rdf:about="http://www.si2.com/destino-turistico#viajaA">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.si2.com/destino-turistico#Turista"/>
+        <rdfs:range rdf:resource="http://www.si2.com/destino-turistico#Pais"/>
+        <rdfs:comment>Un turista toma una decisión de viajar a un país.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#Discapacitado -->
+
+    <owl:DatatypeProperty rdf:about="http://www.si2.com/destino-turistico#Discapacitado">
+        <rdfs:domain rdf:resource="http://www.si2.com/destino-turistico#Turista"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#NúmeroHijos -->
+
+    <owl:DatatypeProperty rdf:about="http://www.si2.com/destino-turistico#NúmeroHijos">
+        <rdfs:domain rdf:resource="http://www.si2.com/destino-turistico#Turista"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#Actividad -->
+
+    <owl:Class rdf:about="http://www.si2.com/destino-turistico#Actividad"/>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#Acuático -->
+
+    <owl:Class rdf:about="http://www.si2.com/destino-turistico#Acuático">
+        <rdfs:subClassOf rdf:resource="http://www.si2.com/destino-turistico#Deportivo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#Aéreo -->
+
+    <owl:Class rdf:about="http://www.si2.com/destino-turistico#Aéreo">
+        <rdfs:subClassOf rdf:resource="http://www.si2.com/destino-turistico#Deportivo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#Camping -->
+
+    <owl:Class rdf:about="http://www.si2.com/destino-turistico#Camping">
+        <rdfs:subClassOf rdf:resource="http://www.si2.com/destino-turistico#Estancia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#Cine -->
+
+    <owl:Class rdf:about="http://www.si2.com/destino-turistico#Cine">
+        <rdfs:subClassOf rdf:resource="http://www.si2.com/destino-turistico#Cultural"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#Costero -->
+
+    <owl:Class rdf:about="http://www.si2.com/destino-turistico#Costero">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.si2.com/destino-turistico#puedeRealizar"/>
+                        <owl:someValuesFrom rdf:resource="http://www.si2.com/destino-turistico#Acuático"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.si2.com/destino-turistico#puedeRealizar"/>
+                        <owl:someValuesFrom rdf:resource="http://www.si2.com/destino-turistico#RelaxPlaya"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.si2.com/destino-turistico#Destino"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#Cultural -->
+
+    <owl:Class rdf:about="http://www.si2.com/destino-turistico#Cultural">
+        <rdfs:subClassOf rdf:resource="http://www.si2.com/destino-turistico#Actividad"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#Deportivo -->
+
+    <owl:Class rdf:about="http://www.si2.com/destino-turistico#Deportivo">
+        <rdfs:subClassOf rdf:resource="http://www.si2.com/destino-turistico#Entretenimiento"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#Destino -->
+
+    <owl:Class rdf:about="http://www.si2.com/destino-turistico#Destino">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.si2.com/destino-turistico#puedeRealizar"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.si2.com/destino-turistico#Actividad"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.si2.com/destino-turistico#tiene"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.si2.com/destino-turistico#Estancia"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#Entretenimiento -->
+
+    <owl:Class rdf:about="http://www.si2.com/destino-turistico#Entretenimiento">
+        <rdfs:subClassOf rdf:resource="http://www.si2.com/destino-turistico#Actividad"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#Estancia -->
+
+    <owl:Class rdf:about="http://www.si2.com/destino-turistico#Estancia"/>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#Exótica -->
+
+    <owl:Class rdf:about="http://www.si2.com/destino-turistico#Exótica">
+        <rdfs:subClassOf rdf:resource="http://www.si2.com/destino-turistico#Gastronómica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#Gastronómica -->
+
+    <owl:Class rdf:about="http://www.si2.com/destino-turistico#Gastronómica">
+        <rdfs:subClassOf rdf:resource="http://www.si2.com/destino-turistico#Actividad"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#Hotel -->
+
+    <owl:Class rdf:about="http://www.si2.com/destino-turistico#Hotel">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.si2.com/destino-turistico#1Estrella"/>
+                    <rdf:Description rdf:about="http://www.si2.com/destino-turistico#2Estrellas"/>
+                    <rdf:Description rdf:about="http://www.si2.com/destino-turistico#3Estrellas"/>
+                    <rdf:Description rdf:about="http://www.si2.com/destino-turistico#4Estrellas"/>
+                    <rdf:Description rdf:about="http://www.si2.com/destino-turistico#5Estrellas"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.si2.com/destino-turistico#Estancia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#Idioma -->
+
+    <owl:Class rdf:about="http://www.si2.com/destino-turistico#Idioma"/>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#IdiomaAmericano -->
+
+    <owl:Class rdf:about="http://www.si2.com/destino-turistico#IdiomaAmericano">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.si2.com/destino-turistico#EspañolLatino"/>
+                    <rdf:Description rdf:about="http://www.si2.com/destino-turistico#FrancésAmericano"/>
+                    <rdf:Description rdf:about="http://www.si2.com/destino-turistico#InglésAmericano"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.si2.com/destino-turistico#Idioma"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#IdiomaEuropeo -->
+
+    <owl:Class rdf:about="http://www.si2.com/destino-turistico#IdiomaEuropeo">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.si2.com/destino-turistico#Alemán"/>
+                    <rdf:Description rdf:about="http://www.si2.com/destino-turistico#Español"/>
+                    <rdf:Description rdf:about="http://www.si2.com/destino-turistico#Francés"/>
+                    <rdf:Description rdf:about="http://www.si2.com/destino-turistico#Inglés"/>
+                    <rdf:Description rdf:about="http://www.si2.com/destino-turistico#Polaco"/>
+                    <rdf:Description rdf:about="http://www.si2.com/destino-turistico#Ruso"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.si2.com/destino-turistico#Idioma"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#IdiomaOriental -->
+
+    <owl:Class rdf:about="http://www.si2.com/destino-turistico#IdiomaOriental">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.si2.com/destino-turistico#Chino"/>
+                    <rdf:Description rdf:about="http://www.si2.com/destino-turistico#Hindú"/>
+                    <rdf:Description rdf:about="http://www.si2.com/destino-turistico#Japonés"/>
+                    <rdf:Description rdf:about="http://www.si2.com/destino-turistico#Tailandés"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.si2.com/destino-turistico#Idioma"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#Lúdico -->
+
+    <owl:Class rdf:about="http://www.si2.com/destino-turistico#Lúdico">
+        <rdfs:subClassOf rdf:resource="http://www.si2.com/destino-turistico#Entretenimiento"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#Moderna -->
+
+    <owl:Class rdf:about="http://www.si2.com/destino-turistico#Moderna">
+        <rdfs:subClassOf rdf:resource="http://www.si2.com/destino-turistico#Gastronómica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#Museo -->
+
+    <owl:Class rdf:about="http://www.si2.com/destino-turistico#Museo">
+        <rdfs:subClassOf rdf:resource="http://www.si2.com/destino-turistico#Cultural"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#Música -->
+
+    <owl:Class rdf:about="http://www.si2.com/destino-turistico#Música">
+        <rdfs:subClassOf rdf:resource="http://www.si2.com/destino-turistico#Lúdico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#Pais -->
+
+    <owl:Class rdf:about="http://www.si2.com/destino-turistico#Pais">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.si2.com/destino-turistico#contiene"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.si2.com/destino-turistico#Destino"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.si2.com/destino-turistico#seHabla"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.si2.com/destino-turistico#Idioma"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#ParqueAtracciones -->
+
+    <owl:Class rdf:about="http://www.si2.com/destino-turistico#ParqueAtracciones">
+        <rdfs:subClassOf rdf:resource="http://www.si2.com/destino-turistico#Lúdico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#PaísAmericano -->
+
+    <owl:Class rdf:about="http://www.si2.com/destino-turistico#PaísAmericano">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.si2.com/destino-turistico#seHabla"/>
+                <owl:someValuesFrom rdf:resource="http://www.si2.com/destino-turistico#IdiomaAmericano"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.si2.com/destino-turistico#Pais"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#PaísAsiático -->
+
+    <owl:Class rdf:about="http://www.si2.com/destino-turistico#PaísAsiático">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.si2.com/destino-turistico#seHabla"/>
+                <owl:someValuesFrom rdf:resource="http://www.si2.com/destino-turistico#IdiomaOriental"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.si2.com/destino-turistico#Pais"/>
+        <owl:disjointWith rdf:resource="http://www.si2.com/destino-turistico#PaísEuropeo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#PaísEuropeo -->
+
+    <owl:Class rdf:about="http://www.si2.com/destino-turistico#PaísEuropeo">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.si2.com/destino-turistico#seHabla"/>
+                <owl:someValuesFrom rdf:resource="http://www.si2.com/destino-turistico#IdiomaEuropeo"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.si2.com/destino-turistico#Pais"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#Privado -->
+
+    <owl:Class rdf:about="http://www.si2.com/destino-turistico#Privado">
+        <rdfs:subClassOf rdf:resource="http://www.si2.com/destino-turistico#Estancia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#PuntosArqueológicos -->
+
+    <owl:Class rdf:about="http://www.si2.com/destino-turistico#PuntosArqueológicos">
+        <rdfs:subClassOf rdf:resource="http://www.si2.com/destino-turistico#Cultural"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#Relax -->
+
+    <owl:Class rdf:about="http://www.si2.com/destino-turistico#Relax">
+        <rdfs:subClassOf rdf:resource="http://www.si2.com/destino-turistico#Entretenimiento"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#RelaxPlaya -->
+
+    <owl:Class rdf:about="http://www.si2.com/destino-turistico#RelaxPlaya">
+        <rdfs:subClassOf rdf:resource="http://www.si2.com/destino-turistico#Relax"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#RelaxRural -->
+
+    <owl:Class rdf:about="http://www.si2.com/destino-turistico#RelaxRural">
+        <rdfs:subClassOf rdf:resource="http://www.si2.com/destino-turistico#Relax"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#RelaxUrbano -->
+
+    <owl:Class rdf:about="http://www.si2.com/destino-turistico#RelaxUrbano">
+        <rdfs:subClassOf rdf:resource="http://www.si2.com/destino-turistico#Relax"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#Riesgo -->
+
+    <owl:Class rdf:about="http://www.si2.com/destino-turistico#Riesgo">
+        <rdfs:subClassOf rdf:resource="http://www.si2.com/destino-turistico#Deportivo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#Rural -->
+
+    <owl:Class rdf:about="http://www.si2.com/destino-turistico#Rural">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.si2.com/destino-turistico#puedeRealizar"/>
+                        <owl:someValuesFrom rdf:resource="http://www.si2.com/destino-turistico#PuntosArqueológicos"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.si2.com/destino-turistico#puedeRealizar"/>
+                        <owl:someValuesFrom rdf:resource="http://www.si2.com/destino-turistico#RelaxRural"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.si2.com/destino-turistico#Destino"/>
+        <owl:disjointWith rdf:resource="http://www.si2.com/destino-turistico#Urbano"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#Teatro -->
+
+    <owl:Class rdf:about="http://www.si2.com/destino-turistico#Teatro">
+        <rdfs:subClassOf rdf:resource="http://www.si2.com/destino-turistico#Cultural"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#Terrestre -->
+
+    <owl:Class rdf:about="http://www.si2.com/destino-turistico#Terrestre">
+        <rdfs:subClassOf rdf:resource="http://www.si2.com/destino-turistico#Deportivo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#Tradicional -->
+
+    <owl:Class rdf:about="http://www.si2.com/destino-turistico#Tradicional">
+        <rdfs:subClassOf rdf:resource="http://www.si2.com/destino-turistico#Gastronómica"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#Turista -->
+
+    <owl:Class rdf:about="http://www.si2.com/destino-turistico#Turista">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.si2.com/destino-turistico#viajaA"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.si2.com/destino-turistico#Pais"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#TuristaDiscapacitado -->
+
+    <owl:Class rdf:about="http://www.si2.com/destino-turistico#TuristaDiscapacitado">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.si2.com/destino-turistico#Discapacitado"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.si2.com/destino-turistico#Turista"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#TuristaFamilia -->
+
+    <owl:Class rdf:about="http://www.si2.com/destino-turistico#TuristaFamilia">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.si2.com/destino-turistico#NúmeroHijos"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.si2.com/destino-turistico#Turista"/>
+        <owl:disjointWith rdf:resource="http://www.si2.com/destino-turistico#TuristaRiesgo"/>
+        <rdfs:comment>Subclase de Turista que comprenden a todos aquellos turistas que contienen mínimo 1 hijo y que viajan mínimo a 1 país.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#TuristaMillonario -->
+
+    <owl:Class rdf:about="http://www.si2.com/destino-turistico#TuristaMillonario">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.si2.com/destino-turistico#interesadoEn"/>
+                                <owl:someValuesFrom rdf:resource="http://www.si2.com/destino-turistico#Aéreo"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.si2.com/destino-turistico#interesadoEn"/>
+                                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
+                                <owl:onClass rdf:resource="http://www.si2.com/destino-turistico#Gastronómica"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.si2.com/destino-turistico#seAloja"/>
+                        <owl:hasValue rdf:resource="http://www.si2.com/destino-turistico#5Estrellas"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.si2.com/destino-turistico#Turista"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#TuristaRiesgo -->
+
+    <owl:Class rdf:about="http://www.si2.com/destino-turistico#TuristaRiesgo">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.si2.com/destino-turistico#interesadoEn"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.si2.com/destino-turistico#Riesgo"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.si2.com/destino-turistico#Turista"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#Urbano -->
+
+    <owl:Class rdf:about="http://www.si2.com/destino-turistico#Urbano">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.si2.com/destino-turistico#puedeRealizar"/>
+                        <owl:someValuesFrom rdf:resource="http://www.si2.com/destino-turistico#Cine"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.si2.com/destino-turistico#puedeRealizar"/>
+                        <owl:someValuesFrom rdf:resource="http://www.si2.com/destino-turistico#Museo"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.si2.com/destino-turistico#puedeRealizar"/>
+                        <owl:someValuesFrom rdf:resource="http://www.si2.com/destino-turistico#RelaxUrbano"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.si2.com/destino-turistico#puedeRealizar"/>
+                        <owl:someValuesFrom rdf:resource="http://www.si2.com/destino-turistico#Teatro"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.si2.com/destino-turistico#Destino"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#Vino -->
+
+    <owl:Class rdf:about="http://www.si2.com/destino-turistico#Vino">
+        <rdfs:subClassOf rdf:resource="http://www.si2.com/destino-turistico#Gastronómica"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#Alemán -->
+
+    <owl:NamedIndividual rdf:about="http://www.si2.com/destino-turistico#Alemán">
+        <rdf:type rdf:resource="http://www.si2.com/destino-turistico#Idioma"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#China -->
+
+    <owl:NamedIndividual rdf:about="http://www.si2.com/destino-turistico#China">
+        <rdf:type rdf:resource="http://www.si2.com/destino-turistico#Pais"/>
+        <seHabla rdf:resource="http://www.si2.com/destino-turistico#Chino"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#Chino -->
+
+    <owl:NamedIndividual rdf:about="http://www.si2.com/destino-turistico#Chino">
+        <rdf:type rdf:resource="http://www.si2.com/destino-turistico#Idioma"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#CineHongKong -->
+
+    <owl:NamedIndividual rdf:about="http://www.si2.com/destino-turistico#CineHongKong">
+        <rdf:type rdf:resource="http://www.si2.com/destino-turistico#Cine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#Español -->
+
+    <owl:NamedIndividual rdf:about="http://www.si2.com/destino-turistico#Español">
+        <rdf:type rdf:resource="http://www.si2.com/destino-turistico#Idioma"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#EspañolLatino -->
+
+    <owl:NamedIndividual rdf:about="http://www.si2.com/destino-turistico#EspañolLatino">
+        <rdf:type rdf:resource="http://www.si2.com/destino-turistico#Idioma"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#Felipe -->
+
+    <owl:NamedIndividual rdf:about="http://www.si2.com/destino-turistico#Felipe">
+        <habla rdf:resource="http://www.si2.com/destino-turistico#Español"/>
+        <interesadoEn rdf:resource="http://www.si2.com/destino-turistico#GastronómicaChinaTradicional"/>
+        <interesadoEn rdf:resource="http://www.si2.com/destino-turistico#GastronómicaInsectos"/>
+        <interesadoEn rdf:resource="http://www.si2.com/destino-turistico#Parkour"/>
+        <seAloja rdf:resource="http://www.si2.com/destino-turistico#HotelHongKong"/>
+        <viajaA rdf:resource="http://www.si2.com/destino-turistico#China"/>
+        <Discapacitado rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Discapacitado>
+        <NúmeroHijos rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">0</NúmeroHijos>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#Francés -->
+
+    <owl:NamedIndividual rdf:about="http://www.si2.com/destino-turistico#Francés">
+        <rdf:type rdf:resource="http://www.si2.com/destino-turistico#Idioma"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#FrancésAmericano -->
+
+    <owl:NamedIndividual rdf:about="http://www.si2.com/destino-turistico#FrancésAmericano">
+        <rdf:type rdf:resource="http://www.si2.com/destino-turistico#Idioma"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#GastronómicaChinaTradicional -->
+
+    <owl:NamedIndividual rdf:about="http://www.si2.com/destino-turistico#GastronómicaChinaTradicional">
+        <rdf:type rdf:resource="http://www.si2.com/destino-turistico#Tradicional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#GastronómicaInsectos -->
+
+    <owl:NamedIndividual rdf:about="http://www.si2.com/destino-turistico#GastronómicaInsectos">
+        <rdf:type rdf:resource="http://www.si2.com/destino-turistico#Exótica"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#Hindú -->
+
+    <owl:NamedIndividual rdf:about="http://www.si2.com/destino-turistico#Hindú">
+        <rdf:type rdf:resource="http://www.si2.com/destino-turistico#Idioma"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#HongKong -->
+
+    <owl:NamedIndividual rdf:about="http://www.si2.com/destino-turistico#HongKong">
+        <rdf:type rdf:resource="http://www.si2.com/destino-turistico#Destino"/>
+        <perteneceA rdf:resource="http://www.si2.com/destino-turistico#China"/>
+        <puedeRealizar rdf:resource="http://www.si2.com/destino-turistico#CineHongKong"/>
+        <puedeRealizar rdf:resource="http://www.si2.com/destino-turistico#GastronómicaChinaTradicional"/>
+        <puedeRealizar rdf:resource="http://www.si2.com/destino-turistico#GastronómicaInsectos"/>
+        <puedeRealizar rdf:resource="http://www.si2.com/destino-turistico#Parkour"/>
+        <puedeRealizar rdf:resource="http://www.si2.com/destino-turistico#TeatroInternacionalChino"/>
+        <puedeRealizar rdf:resource="http://www.si2.com/destino-turistico#Vela"/>
+        <tiene rdf:resource="http://www.si2.com/destino-turistico#HotelHongKong"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#HotelHongKong -->
+
+    <owl:NamedIndividual rdf:about="http://www.si2.com/destino-turistico#HotelHongKong">
+        <rdf:type rdf:resource="http://www.si2.com/destino-turistico#Hotel"/>
+        <owl:sameAs rdf:resource="http://www.si2.com/destino-turistico#5Estrellas"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#Inglés -->
+
+    <owl:NamedIndividual rdf:about="http://www.si2.com/destino-turistico#Inglés">
+        <rdf:type rdf:resource="http://www.si2.com/destino-turistico#Idioma"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#InglésAmericano -->
+
+    <owl:NamedIndividual rdf:about="http://www.si2.com/destino-turistico#InglésAmericano">
+        <rdf:type rdf:resource="http://www.si2.com/destino-turistico#Idioma"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#Japonés -->
+
+    <owl:NamedIndividual rdf:about="http://www.si2.com/destino-turistico#Japonés">
+        <rdf:type rdf:resource="http://www.si2.com/destino-turistico#Idioma"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#Parkour -->
+
+    <owl:NamedIndividual rdf:about="http://www.si2.com/destino-turistico#Parkour">
+        <rdf:type rdf:resource="http://www.si2.com/destino-turistico#Riesgo"/>
+        <rdf:type rdf:resource="http://www.si2.com/destino-turistico#Terrestre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#Polaco -->
+
+    <owl:NamedIndividual rdf:about="http://www.si2.com/destino-turistico#Polaco">
+        <rdf:type rdf:resource="http://www.si2.com/destino-turistico#Idioma"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#Ruso -->
+
+    <owl:NamedIndividual rdf:about="http://www.si2.com/destino-turistico#Ruso">
+        <rdf:type rdf:resource="http://www.si2.com/destino-turistico#Idioma"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#Tailandés -->
+
+    <owl:NamedIndividual rdf:about="http://www.si2.com/destino-turistico#Tailandés">
+        <rdf:type rdf:resource="http://www.si2.com/destino-turistico#Idioma"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#TeatroInternacionalChino -->
+
+    <owl:NamedIndividual rdf:about="http://www.si2.com/destino-turistico#TeatroInternacionalChino">
+        <rdf:type rdf:resource="http://www.si2.com/destino-turistico#Teatro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#Vela -->
+
+    <owl:NamedIndividual rdf:about="http://www.si2.com/destino-turistico#Vela">
+        <rdf:type rdf:resource="http://www.si2.com/destino-turistico#Acuático"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#1Estrella -->
+
+    <owl:NamedIndividual rdf:about="http://www.si2.com/destino-turistico#1Estrella"/>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#2Estrellas -->
+
+    <owl:NamedIndividual rdf:about="http://www.si2.com/destino-turistico#2Estrellas"/>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#3Estrellas -->
+
+    <owl:NamedIndividual rdf:about="http://www.si2.com/destino-turistico#3Estrellas"/>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#4Estrellas -->
+
+    <owl:NamedIndividual rdf:about="http://www.si2.com/destino-turistico#4Estrellas"/>
+    
+
+
+    <!-- http://www.si2.com/destino-turistico#5Estrellas -->
+
+    <owl:NamedIndividual rdf:about="http://www.si2.com/destino-turistico#5Estrellas"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.si2.com/destino-turistico#Actividad"/>
+            <rdf:Description rdf:about="http://www.si2.com/destino-turistico#Destino"/>
+            <rdf:Description rdf:about="http://www.si2.com/destino-turistico#Estancia"/>
+            <rdf:Description rdf:about="http://www.si2.com/destino-turistico#Idioma"/>
+            <rdf:Description rdf:about="http://www.si2.com/destino-turistico#Pais"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.si2.com/destino-turistico#Acuático"/>
+            <rdf:Description rdf:about="http://www.si2.com/destino-turistico#Aéreo"/>
+            <rdf:Description rdf:about="http://www.si2.com/destino-turistico#Terrestre"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.si2.com/destino-turistico#Cultural"/>
+            <rdf:Description rdf:about="http://www.si2.com/destino-turistico#Entretenimiento"/>
+            <rdf:Description rdf:about="http://www.si2.com/destino-turistico#Gastronómica"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.si2.com/destino-turistico#Exótica"/>
+            <rdf:Description rdf:about="http://www.si2.com/destino-turistico#Moderna"/>
+            <rdf:Description rdf:about="http://www.si2.com/destino-turistico#Tradicional"/>
+            <rdf:Description rdf:about="http://www.si2.com/destino-turistico#Vino"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

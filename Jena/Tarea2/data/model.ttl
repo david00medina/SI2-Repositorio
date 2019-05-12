@@ -1,0 +1,1514 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dce:   <http://purl.org/dc/elements/1.1> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2001/vcard-rdf/3.0#> .
+@prefix tweetanalyzer: <http://www.tweetanalyzer.com/> .
+
+<http://www.tweetanalyzer.com/1114277570240032768/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        vcard:LABEL  "English" .
+
+<http://www.tweetanalyzer.com/1114276534594998272/user/>
+        <http://purl.org/dc/terms/creator>
+                "CuteStrangeCreatures" ;
+        vcard:Locality  "" .
+
+tweetanalyzer:1114273021609611266
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "RT @CatCasa1: Good night, big world 😽🌎 #cute #cat #cats #kitten #kitty #kittens #caturday https://t.co/ATVrXnfw7V" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:06 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114273021609611266"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114273021609611266/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114273021609611266/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1114277525763629056/user/>
+        <http://purl.org/dc/terms/creator>
+                "MrsLittletall" ;
+        vcard:Locality  "Germany" .
+
+tweetanalyzer:1114273469007564801
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "RT @SOSmoggies: #MissingCat Gizmo, Bullens Road, Walton #Liverpool.\nEscaped house #cat, not #neutered or #chipped. She will be very scared.…" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:07 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114273469007564801"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114273469007564801/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114273469007564801/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+tweetanalyzer:1114277416220995587
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "猫は自分の名前を把握=単に返事しないだけ-英科学誌 https://t.co/xXqrq1KdAd #猫 #ねこ #ネコ #cat #猫部 #ネコ部 #短足 #猫好きさんと繋がりたい #ねこのきもち #猫のいる暮らし" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:23 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114277416220995587"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114277416220995587/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114277416220995587/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1114273090089803776/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        vcard:LABEL  "English" .
+
+<http://www.tweetanalyzer.com/1114274429016707072/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        vcard:LABEL  "English" .
+
+<http://www.tweetanalyzer.com/1114277590053920771/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        vcard:LABEL  "English" .
+
+tweetanalyzer:1114274429016707072
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "Enter to #win a PawNosh Cubby Glass Pet Bowl! @pawnosh @floppycats #cat #pet #giveaway #catgiveaway #catbowl  https://t.co/ZKYMjlCafl" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:11 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114274429016707072"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114274429016707072/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114274429016707072/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1114273943932641280/user/>
+        <http://purl.org/dc/terms/creator>
+                "凛々-ななひめ捜索中" ;
+        vcard:Locality  "神奈川県川崎市" .
+
+<http://www.tweetanalyzer.com/1114275749375168512/user/>
+        <http://purl.org/dc/terms/creator>
+                "Carlosfilipe" ;
+        vcard:Locality  "Portimão, Portugal" .
+
+<http://www.tweetanalyzer.com/1114273469007564801/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        vcard:LABEL  "English" .
+
+<http://www.tweetanalyzer.com/1114275403181559810/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        vcard:LABEL  "English" .
+
+tweetanalyzer:1114275418939387904
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "Valentina para adopção responsável com a adapportimao \n•\n•\n•\n🐱 #cat #cats #catsagram #toptags #catstagram #instagood #kitten #kitty #kittens #pet #pets #meong #neko #petstagram #petsagram… https://t.co/qosHEIi39c" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:15 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114275418939387904"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114275418939387904/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114275418939387904/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1114275418939387904/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "pt" ;
+        vcard:LABEL  "Portuguese" .
+
+<http://www.tweetanalyzer.com/1114274783921762304/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "ja" ;
+        vcard:LABEL  "Japanese" .
+
+<http://www.tweetanalyzer.com/1114276290515951617/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        vcard:LABEL  "English" .
+
+<http://www.tweetanalyzer.com/1114275604558381056/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        vcard:LABEL  "English" .
+
+tweetanalyzer:1114272507937415169
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "From Melissa Allen: \"Inside cat, the owner was unsure how it happened. Cat was euthanized.\"\n\n#xray #radiography #cat #spine #fracture #veterinarymedicine #iloveveterinary #lovevetmed https://t.co/5n9gaEDo9j" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:04 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114272507937415169"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114272507937415169/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114272507937415169/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1114273021609611266/user/>
+        <http://purl.org/dc/terms/creator>
+                "ART-MYTH" ;
+        vcard:Locality  "New York, NY" .
+
+<http://www.tweetanalyzer.com/1114272937132134400/user/>
+        <http://purl.org/dc/terms/creator>
+                "🌻Your Sunshine🌻" ;
+        vcard:Locality  "Texas, USA" .
+
+<http://www.tweetanalyzer.com/1114272720571850752/user/>
+        <http://purl.org/dc/terms/creator>
+                "Linda Rose" ;
+        vcard:Locality  "Manhattan, Kansas" .
+
+<http://www.tweetanalyzer.com/1114276278482370561/user/>
+        <http://purl.org/dc/terms/creator>
+                "Really" ;
+        vcard:Locality  "New York, NY" .
+
+tweetanalyzer:1114277570240032768
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "RT @emmajg: Taking my origami TV characters to @BritishOrigami convention on Sunday\n#britishorigami #geek #origami #reddwarf #lucifer #rimm…" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:24 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114277570240032768"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114277570240032768/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114277570240032768/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1114272423090819072/user/>
+        <http://purl.org/dc/terms/creator>
+                "Ken Axel" ;
+        vcard:Locality  "Lima, Surco - Perú" .
+
+<http://www.tweetanalyzer.com/1114277525763629056/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        vcard:LABEL  "English" .
+
+tweetanalyzer:1114273713514516483
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "RT @LOL_cats: Occupado! #LOLcat #cats #LOLcats #cat https://t.co/gk00GtrLLi" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:08 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114273713514516483"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114273713514516483/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114273713514516483/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1114273461688516611/user/>
+        <http://purl.org/dc/terms/creator>
+                "Renata Konkoly" ;
+        vcard:Locality  "" .
+
+tweetanalyzer:1114274783921762304
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "RT @sheba_duo2019: ちょっとうれしい日は、猫ちゃんだってごちそうを食べたい😻 今年も4月8日はシーバの日！外はカリカリ、中はクリーミーなごちそうゴハンはいかがかニャ？ #4月8日はシーバの日 #金曜日はシーバの日 #シーバ #猫　#ネコ #cat" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:13 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114274783921762304"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114274783921762304/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114274783921762304/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1114275725375361024/user/>
+        <http://purl.org/dc/terms/creator>
+                "jaime casallas" ;
+        vcard:Locality  "Bogota Colombia" .
+
+<http://www.tweetanalyzer.com/1114276055743901703/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "und" ;
+        vcard:LABEL  "Indeterminado" .
+
+tweetanalyzer:1114275399104512000
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "A tail of #contentment 🐈\n\n#findyourjoy #innerpeace #pawsitivity #positivethinking #positivevibes #positiveenergy #weekendvibes #liveyourbestlife #catsofinstagram #catstagram #instacat #cat #catlover #animals #animallovers #furbaby #pet #petlover https://t.co/vNMk8aL4DW" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:15 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114275399104512000"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114275399104512000/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114275399104512000/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+tweetanalyzer:1114275604558381056
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "fast flip a clip thing\n\n#cat #animation https://t.co/eK42x4Ntr6" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:16 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114275604558381056"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114275604558381056/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114275604558381056/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1114273943932641280/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "ja" ;
+        vcard:LABEL  "Japanese" .
+
+tweetanalyzer:animal  a  rdfs:Class .
+
+<http://www.tweetanalyzer.com/1114273498451435520/user/>
+        <http://purl.org/dc/terms/creator>
+                "まゆり＆やよい＆あんず" ;
+        vcard:Locality  "ラグドールもふもふパラダイス" .
+
+<http://www.tweetanalyzer.com/1114273704370946049/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "de" ;
+        vcard:LABEL  "German" .
+
+tweetanalyzer:1114276290515951617
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "RT @CassanovaKitty: A tail of #contentment 🐈\n\n#findyourjoy #innerpeace #pawsitivity #positivethinking #positivevibes #positiveenergy #weeke…" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:19 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114276290515951617"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114276290515951617/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114276290515951617/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1114277213468352514/user/>
+        <http://purl.org/dc/terms/creator>
+                "Rafael Campoamor" ;
+        vcard:Locality  "Madrid, Spain" .
+
+<http://www.tweetanalyzer.com/1114274142239510529/user/>
+        <http://purl.org/dc/terms/creator>
+                "猫のみゅーみゅーちゃん" ;
+        vcard:Locality  "" .
+
+tweetanalyzer:1114276908743708672
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "It’s the good life 🌴 \n#ilovecats #persiancat #persiancats #persiancat_feature #persianmoments #weeklyfluff #Cat #Cutecat #Kittylove #Catlover #Catlovers #Cutecats #Cats #CatsOfInstagram #Persiancorner https://t.co/s5F0hKcOjK https://t.co/8ONvnf6UZ0" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:21 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114276908743708672"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114276908743708672/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114276908743708672/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1114276554673094660/user/>
+        <http://purl.org/dc/terms/creator>
+                "small fry" ;
+        vcard:Locality  "Canada" .
+
+<http://www.tweetanalyzer.com/1114273713514516483/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "it" ;
+        vcard:LABEL  "Italian" .
+
+<http://www.tweetanalyzer.com/1114272391427915777/user/>
+        <http://purl.org/dc/terms/creator>
+                "dobi" ;
+        vcard:Locality  "" .
+
+tweetanalyzer:1114276534594998272
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "Weird Electro Cat All Over Graphic Tee https://t.co/FUMjB6d6Nw #zazzle #cat #cats #catlovers #catlover #lightning #weird #catlady #cool #dark #goth #gothic #electro #electricity #cute #funny #odd #madeinaffinity #tshirt #tshirts #tshirtdesign https://t.co/XbTl4Z6Ewb" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:20 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114276534594998272"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114276534594998272/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114276534594998272/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+tweetanalyzer:1114272937132134400
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "#cat #cute https://t.co/XYi7fghdQ9" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:05 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114272937132134400"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114272937132134400/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114272937132134400/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+tweetanalyzer:1114273090089803776
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "Sleepy time #cat https://t.co/YcnwTnjTaR" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:06 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114273090089803776"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114273090089803776/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114273090089803776/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1114274458552946688/user/>
+        <http://purl.org/dc/terms/creator>
+                "Marion Sweeney" ;
+        vcard:Locality  "Toronto, Ontario" .
+
+<http://www.tweetanalyzer.com/1114276647203672066/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        vcard:LABEL  "English" .
+
+<http://www.tweetanalyzer.com/1114275399104512000/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        vcard:LABEL  "English" .
+
+<http://www.tweetanalyzer.com/1114274158408544259/user/>
+        <http://purl.org/dc/terms/creator>
+                "Eleanor" ;
+        vcard:Locality  "" .
+
+tweetanalyzer:1114275100080115712
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "@aren_besim Register @DoglostUK use link to join https://t.co/WFH9lcIHG6 then register using https://t.co/WFH9lcIHG6 They help with lost cats too-scroll down breed list to #Cat when registering They send email alerts to helpers in area lost-all helps with extra eyes looking out" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:14 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114275100080115712"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114275100080115712/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114275100080115712/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1114272937132134400/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "und" ;
+        vcard:LABEL  "Indeterminado" .
+
+<http://www.tweetanalyzer.com/1114272720571850752/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        vcard:LABEL  "English" .
+
+<http://www.tweetanalyzer.com/1114276278482370561/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        vcard:LABEL  "English" .
+
+<http://www.tweetanalyzer.com/1114274526362251264/user/>
+        <http://purl.org/dc/terms/creator>
+                "🎨 JusPlayinNdaPaint 🎨" ;
+        vcard:Locality  "Los Angeles, CA" .
+
+<http://www.tweetanalyzer.com/1114272423090819072/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "es" ;
+        vcard:LABEL  "Spanish" .
+
+tweetanalyzer:1114273704370946049
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "RT @KloenschnackYT: Ich hatte Lust etwas Eigenes zu gestalten und habe ohne nachzudenken losgelegt. Herausgekommen ist diese Illustration,…" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:08 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114273704370946049"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114273704370946049/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114273704370946049/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1114275100080115712/user/>
+        <http://purl.org/dc/terms/creator>
+                "MissingCatsUK" ;
+        vcard:Locality  "United Kingdom" .
+
+<http://www.tweetanalyzer.com/1114273461688516611/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        vcard:LABEL  "English" .
+
+<http://www.tweetanalyzer.com/topic/>
+        <http://purl.org/dc/terms/subject>
+                <http://www.tweetanalyzer.com/topic/#cat> .
+
+<http://www.tweetanalyzer.com/1114275203003998209/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        vcard:LABEL  "English" .
+
+<http://www.tweetanalyzer.com/1114275725375361024/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "und" ;
+        vcard:LABEL  "Indeterminado" .
+
+<http://www.tweetanalyzer.com/1114276641356812290/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        vcard:LABEL  "English" .
+
+<http://www.tweetanalyzer.com/1114273498451435520/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "ja" ;
+        vcard:LABEL  "Japanese" .
+
+<http://www.tweetanalyzer.com/1114274490102497280/user/>
+        <http://purl.org/dc/terms/creator>
+                "MissingCatsUK" ;
+        vcard:Locality  "United Kingdom" .
+
+<http://www.tweetanalyzer.com/1114277213468352514/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "in" ;
+        vcard:LABEL  "Indonesian" .
+
+<http://www.tweetanalyzer.com/1114274142239510529/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "ja" ;
+        vcard:LABEL  "Japanese" .
+
+tweetanalyzer:1114276970492235776
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "RT @PAAW_House: Be the first to know when our site launches. We'll bring you #exclusivedeals on your favourite pet brands/services, a #pets…" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:21 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114276970492235776"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114276970492235776/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114276970492235776/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+tweetanalyzer:1114275203003998209
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "RT @HoudiniDancing: MEW for no girlfriend! Feeling sorry for myself! Maybe a date will be needed.🐾💕\n\n#houdini #HoudiniDancing #cat #cats #c…" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:14 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114275203003998209"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114275203003998209/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114275203003998209/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+tweetanalyzer:1114275165184167936
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "RT @Werikane: Oh hello dear weekend! We missed you. 💜 \n🐱 @HanFluff  📸 @SereasFurry \n#Furry #Fursuit #Cat #Dragon #Dofelniir #FursuitFriday…" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:14 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114275165184167936"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114275165184167936/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114275165184167936/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1114276908743708672/user/>
+        <http://purl.org/dc/terms/creator>
+                "3PersianKitties" ;
+        vcard:Locality  "" .
+
+<http://www.tweetanalyzer.com/1114275509733609476/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        vcard:LABEL  "English" .
+
+<http://www.tweetanalyzer.com/1114272999648182272/user/>
+        <http://purl.org/dc/terms/creator>
+                "Petagadget" ;
+        vcard:Locality  "London" .
+
+tweetanalyzer:1114273461688516611
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "RT @OffTheMarkComic: Viral cats vs. viral people!\n#cat #CatsOfTwitter #SaturdayMorning https://t.co/OxvO7f9byN" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:07 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114273461688516611"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114273461688516611/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114273461688516611/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+tweetanalyzer:1114274490102497280
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "RT @aren_besim: Please help us find our #missingcat in #Barnehurst #Bexleyheath #kent #DA7 Arna is a small black house cat who isn’t used t…" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:11 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114274490102497280"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114274490102497280/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114274490102497280/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+tweetanalyzer:1114276278482370561
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "Checking out my birthday gifts #birthday #tgif #party #design #hello #yes #catsofig #cute #happy  #cat #catsofinstagram #instacats #instagood #adoptdontshop #cutepetposts #catoftheday #petsofinstagram #cute #chill #travel #persiancats #adorablepetsofig #… https://t.co/qidQqQeRhj https://t.co/ulaWORlO8x" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:19 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114276278482370561"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114276278482370561/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114276278482370561/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1114275100080115712/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        vcard:LABEL  "English" .
+
+<http://www.tweetanalyzer.com/1114276662307323910/user/>
+        <http://purl.org/dc/terms/creator>
+                "😺🐈アヴィ🐈🦁🐆🐯🐎🦊🐕🐱" ;
+        vcard:Locality  "東京都" .
+
+tweetanalyzer:1114275749375168512
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "Valentina para adopção responsável com a adapportimao\n•\n•\n•\n🐱 #cat #cats #catsagram #toptags #catstagram #instagood #kitten #kitty #kittens #pet #pets #meong #neko #petstagram #petsagram… https://t.co/qbvbgv7JEi" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:16 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114275749375168512"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114275749375168512/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114275749375168512/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+tweetanalyzer:1114274142239510529
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "ふぅ。 ▼HPはこちらから。\n\n@catblog_jp\n\n#猫 #ねこ #ネコ ＃ねこ部 #みゅーみゅー #にゃんすたぐらむ #にゃんこ #ねこのいる生活 #cat #kitty #catstagram https://t.co/5rWpnDNIMa https://t.co/OmQo7V6oYL" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:10 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114274142239510529"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114274142239510529/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114274142239510529/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1114274490102497280/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        vcard:LABEL  "English" .
+
+tweetanalyzer:1114275866270470145
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "Tarde perfecta para una siesta #cat #catlover #niño https://t.co/Ba0mpwCP36" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:17 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114275866270470145"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114275866270470145/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114275866270470145/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1114276055743901703/user/>
+        <http://purl.org/dc/terms/creator>
+                "jaime casallas" ;
+        vcard:Locality  "Bogota Colombia" .
+
+<http://www.tweetanalyzer.com/1114273704370946049/user/>
+        <http://purl.org/dc/terms/creator>
+                "Affinity Jack" ;
+        vcard:Locality  "Berlin (Germany)" .
+
+tweetanalyzer:1114274458552946688
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "RT @PetfindToronto: #LAWRENCE #MARLEE Pls RT2unite #FOUND #CAT-4/2 #Toronto Animal Services A830193 #NORTH 416-338-8723 Grey DLH/?Age https…" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:11 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114274458552946688"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114274458552946688/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114274458552946688/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+tweetanalyzer:1114272797700784128
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "#cat #rulesofsurvival #RIPNipsey #bot https://t.co/y299f4q3qU" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:05 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114272797700784128"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114272797700784128/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114272797700784128/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+tweetanalyzer:1114276628643962880
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "RT @dcbat: Please #vote in the #poll pinned to my #homepage and #retweet it for the most votes.  Thank you very much.\n\nAre you a #dog lover…" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:20 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114276628643962880"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114276628643962880/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114276628643962880/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1114273713514516483/user/>
+        <http://purl.org/dc/terms/creator>
+                "Spaz Cat" ;
+        vcard:Locality  "Area 51" .
+
+tweetanalyzer:1114275403181559810
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "Babies pare playing after some #nip.\n.\n.\n.\n#cat #instagood #kitten #kitty #kittens #pet #pets #animal #animals #petstagram #petsagram #photooftheday #catsofinstagram #ilovemycat… https://t.co/oOwD6cCC3h" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:15 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114275403181559810"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114275403181559810/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114275403181559810/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+tweetanalyzer:1114272391427915777
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "RT @deus_tido: tido\n.\n.\n.\n.\n.\n#tido #cat #siamesecat #gato #gatosiames https://t.co/gJ9NKH4HO8" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:03 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114272391427915777"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114272391427915777/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114272391427915777/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1114276628643962880/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        vcard:LABEL  "English" .
+
+tweetanalyzer:1114276647203672066
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "RT @PierreBotte1: Cat ! Cat!!!  Caaaatttttt!!!!! https://t.co/pJNf5rUcqp #AudreyHepburn #BreakfastAtTiffanys #cat #chat https://t.co/nB4ewp…" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:20 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114276647203672066"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114276647203672066/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114276647203672066/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1114276908743708672/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        vcard:LABEL  "English" .
+
+<http://www.tweetanalyzer.com/1114276517104640000/user/>
+        <http://purl.org/dc/terms/creator>
+                "Cesse" ;
+        vcard:Locality  "東広島" .
+
+<http://www.tweetanalyzer.com/1114272242257616898/user/>
+        <http://purl.org/dc/terms/creator>
+                "GoldenAngelEyes" ;
+        vcard:Locality  "New York, NY" .
+
+<http://www.tweetanalyzer.com/1114272999648182272/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        vcard:LABEL  "English" .
+
+<http://www.tweetanalyzer.com/1114274173629628416/user/>
+        <http://purl.org/dc/terms/creator>
+                "Cannibal Vegan" ;
+        vcard:Locality  "Twin Cities" .
+
+tweetanalyzer:1114273006283567106
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "Zoe turned 4 last March 30th! 🎂🎂🎂😻😻😻🎂🎂🎂\n\nhttps://t.co/n1qDpamsuf\n\nSo, who's Zoe? Here's her story: https://t.co/XsQdiIqGeV\n\n#cat #cats #cute #catoftheday #catlovers #CatsOfTwitter #neko #gato #chat #mypet https://t.co/KUsFp6ql9R" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:06 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114273006283567106"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114273006283567106/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114273006283567106/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+tweetanalyzer:1114274158408544259
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "RT @drawing0021: My new cat  #painting #artists #artgallery #canvas #acrylicpainting #painters #malarstwo  #cat #animal https://t.co/UXiKh9…" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:10 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114274158408544259"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114274158408544259/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114274158408544259/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+tweetanalyzer:1114277525763629056
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "RT @CatCasa1: Cat Family #kitten #kitty #cats #cat #cute #catlady #catmom https://t.co/q3UVRKSn5o" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:23 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114277525763629056"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114277525763629056/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114277525763629056/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1114276647203672066/user/>
+        <http://purl.org/dc/terms/creator>
+                "Lord Arnaud Elléouet of Glencoe & Lochaber" ;
+        vcard:Locality  "France - Normandie" .
+
+<http://www.tweetanalyzer.com/1114275399104512000/user/>
+        <http://purl.org/dc/terms/creator>
+                "Cassanova" ;
+        vcard:Locality  "Cassadonia, CA" .
+
+tweetanalyzer:1114272242257616898
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "RT @TotallyCuteCats: When you pick a fight with a dude that you didn't realize was much bigger than you. \n\n#funny #cats #cat #cuteanimals #…" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:02 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114272242257616898"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114272242257616898/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114272242257616898/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+tweetanalyzer:1114277213468352514
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "Tan bonitas! 😍🥰 .\n.\n.\n.\n.\n#photography #nature #animal #catstagram #cute #love #pet #petstagram #catsofinstagram #catlife #cat #pets #photooftheday #catlovers #cats #dogsofinstagram #cats_of_instagram #catsagram #meow #instacat #catoftheday #kitten #… https://t.co/OqZ0Ydamd6 https://t.co/4rupI8DqSX" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:22 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114277213468352514"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114277213468352514/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114277213468352514/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1114276662307323910/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "ja" ;
+        vcard:LABEL  "Japanese" .
+
+<http://www.tweetanalyzer.com/1114276687879917568/user/>
+        <http://purl.org/dc/terms/creator>
+                "Pandastreifen" ;
+        vcard:Locality  "" .
+
+<http://www.tweetanalyzer.com/1114275203003998209/user/>
+        <http://purl.org/dc/terms/creator>
+                "MimiMEJKWriter" ;
+        vcard:Locality  "" .
+
+tweetanalyzer:1114273943932641280
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "拡散希望【猫探し】2011年6月に川崎市幸区北加瀬から迷子に。キジトラ白 ななひめ 7才(2016現) 避妊済みメス黒鼻にピンクのポッチ しっぽピーンhttps://t.co/zoxpKwVT #cat #neko #maigo #kawasaki #petweet #川崎" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:09 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114273943932641280"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114273943932641280/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114273943932641280/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+tweetanalyzer:1114275470038765573
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "Weasley and I enjoying the same #snuggles and #goodvibes this chilly day!\n\n#Cat #CatsOfInstagram #kitten #kitty #smiles #Cuddles https://t.co/5hI3KG0W57" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:15 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114275470038765573"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114275470038765573/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114275470038765573/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1114276641356812290/user/>
+        <http://purl.org/dc/terms/creator>
+                "dcbat" ;
+        vcard:Locality  "Washington DC" .
+
+tweetanalyzer:1114277590053920771
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "Pookie: How long have those treats been there? They smell stale. I don’t want them. #cat #cats" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:24 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114277590053920771"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114277590053920771/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114277590053920771/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1114275335011536897/user/>
+        <http://purl.org/dc/terms/creator>
+                "Bayern-Furs e.V." ;
+        vcard:Locality  "Bayern, Deutschland" .
+
+<http://www.tweetanalyzer.com/1114276970492235776/user/>
+        <http://purl.org/dc/terms/creator>
+                "Philip levy" ;
+        vcard:Locality  "" .
+
+<http://www.tweetanalyzer.com/topic/#cat>
+        vcard:LABEL  "animal" .
+
+<http://www.tweetanalyzer.com/1114275337687273472/user/>
+        <http://purl.org/dc/terms/creator>
+                "SWAN FITNESS" ;
+        vcard:Locality  "Gold Coast, Queensland" .
+
+<http://www.tweetanalyzer.com/1114276062354182144/user/>
+        <http://purl.org/dc/terms/creator>
+                "Mrearn" ;
+        vcard:Locality  "" .
+
+<http://www.tweetanalyzer.com/1114276079236046849/user/>
+        <http://purl.org/dc/terms/creator>
+                "Paul B. Moore" ;
+        vcard:Locality  "Arizona" .
+
+<http://www.tweetanalyzer.com/1114272165287878656/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        vcard:LABEL  "English" .
+
+<http://www.tweetanalyzer.com/1114272242257616898/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        vcard:LABEL  "English" .
+
+<http://www.tweetanalyzer.com/1114276517104640000/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "ja" ;
+        vcard:LABEL  "Japanese" .
+
+tweetanalyzer:1114276062354182144
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "I'm feeling better and standing up now. \n#britishshorthair #Julietthecat #catloversclub #cats_of_world #cat #cuteanimals #cutekittens #catphoto #cat_of_instagram #catvideooftheday #catlife #catscatscats #catplaytime #catsagram #britishshorthair #britishshorthairworld#british… https://t.co/JTJusv8VBL" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:18 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114276062354182144"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114276062354182144/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114276062354182144/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1114277416220995587/user/>
+        <http://purl.org/dc/terms/creator>
+                "おもしろ猫ニュースまとめアンテナ！！" ;
+        vcard:Locality  "" .
+
+tweetanalyzer:1114276055743901703
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "RT @onlineportalcom: #home #love #instamood #happy #lol #workout #iphoneonly #friends #me #nyc #fit #healthy #f4f #wedding #hair #instafoll…" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:18 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114276055743901703"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114276055743901703/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114276055743901703/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1114274173629628416/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "und" ;
+        vcard:LABEL  "Indeterminado" .
+
+<http://www.tweetanalyzer.com/1114276534594998272/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        vcard:LABEL  "English" .
+
+<http://www.tweetanalyzer.com/1114275509733609476/user/>
+        <http://purl.org/dc/terms/creator>
+                "Kimberly Counes" ;
+        vcard:Locality  "Los Angeles, CA" .
+
+tweetanalyzer:1114272999648182272
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "https://t.co/5dyQTvJS0C The #Cat Mod Gardens Complex #Accessory #Fun https://t.co/DkUhiZgmMz" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:05 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114272999648182272"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114272999648182272/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114272999648182272/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+tweetanalyzer:1114276554673094660
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "Something weird happened here... 🌳 #cat #adventurer #watercolor #painting #schminckehoradam https://t.co/Jx1zyo6ASa" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:20 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114276554673094660"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114276554673094660/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114276554673094660/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+tweetanalyzer:1114276641356812290
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "RT @dcbat: Are you a #dog lover or a #cat lover?\n\nPlease #vote in this #poll and #retweet it for the most votes.  Thank you very much." ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:20 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114276641356812290"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114276641356812290/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114276641356812290/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1114273006283567106/user/>
+        <http://purl.org/dc/terms/creator>
+                "Kitty Loons" ;
+        vcard:Locality  "New York, USA" .
+
+tweetanalyzer:1114272165287878656
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "#CBD #GnomeSerum #Wellness #Hemp #Memes #Friday #Meme #Cat #Fries #Humor #Creative\n\n*Keep out of reach of people under the age of 21 years. https://t.co/WVGBbRVorF" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:02 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114272165287878656"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114272165287878656/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114272165287878656/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+tweetanalyzer:1114272720571850752
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "RT @welikekittens: Just picked up this little guy from the shelter. What should I name him?! #kittens #cats #cat #meow https://t.co/at7SSWM…" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:04 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114272720571850752"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114272720571850752/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114272720571850752/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1114275749375168512/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "pt" ;
+        vcard:LABEL  "Portuguese" .
+
+<http://www.tweetanalyzer.com/1114276687879917568/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "lt" ;
+        vcard:LABEL  "Lithuanian" .
+
+tweetanalyzer:1114275335011536897
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "RT @Werikane: Oh hello dear weekend! We missed you. 💜 \n🐱 @HanFluff  📸 @SereasFurry \n#Furry #Fursuit #Cat #Dragon #Dofelniir #FursuitFriday…" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:15 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114275335011536897"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114275335011536897/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114275335011536897/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1114275866270470145/user/>
+        <http://purl.org/dc/terms/creator>
+                "Andres Veas™" ;
+        vcard:Locality  "in the nave of oblivion" .
+
+<http://www.tweetanalyzer.com/1114275165184167936/user/>
+        <http://purl.org/dc/terms/creator>
+                "FallenWolf" ;
+        vcard:Locality  "Neustadt an der Waldnaab" .
+
+tweetanalyzer:1114274526362251264
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "I took a nap and it was great UNTIL my #cat woke me up to let her go outside 🙄 she really meowed at me for 5 straight minutes" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:12 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114274526362251264"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114274526362251264/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114274526362251264/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+tweetanalyzer:1114276687879917568
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "Miau #katzen #cat #niedlich #cute https://t.co/6dezbvpmrO" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:20 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114276687879917568"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114276687879917568/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114276687879917568/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1114275335011536897/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        vcard:LABEL  "English" .
+
+<http://www.tweetanalyzer.com/1114276970492235776/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        vcard:LABEL  "English" .
+
+<http://www.tweetanalyzer.com/1114275337687273472/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "ja" ;
+        vcard:LABEL  "Japanese" .
+
+<http://www.tweetanalyzer.com/1114276062354182144/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        vcard:LABEL  "English" .
+
+<http://www.tweetanalyzer.com/1114276079236046849/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "ja" ;
+        vcard:LABEL  "Japanese" .
+
+<http://www.tweetanalyzer.com/1114277416220995587/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "ja" ;
+        vcard:LABEL  "Japanese" .
+
+tweetanalyzer:1114276662307323910
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "朝日を浴びるイケニャン、激渋です！！\n\n#猫 #ねこ #ネコ #にゃんすたぐらむ #cat #猫がいる生活 #保護猫 #保護猫出身 #猫のいる暮らし #ネコリパ池袋出身 #茶トラ #いけにゃん #猫多頭飼い https://t.co/c7YS8V8iuq" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:20 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114276662307323910"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114276662307323910/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114276662307323910/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1114273021609611266/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        vcard:LABEL  "English" .
+
+<http://www.tweetanalyzer.com/1114276628643962880/user/>
+        <http://purl.org/dc/terms/creator>
+                "dcbat" ;
+        vcard:Locality  "Washington DC" .
+
+tweetanalyzer:1114275725375361024
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "RT @onlineportalcom: #ootd #foodporn #makeup #cat #party #girls #cool #lol #tflers #baby #night #funny #instapic #model #motivation #health…" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:16 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114275725375361024"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114275725375361024/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114275725375361024/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1114275470038765573/user/>
+        <http://purl.org/dc/terms/creator>
+                "Crista Gaskill" ;
+        vcard:Locality  "Earth" .
+
+<http://www.tweetanalyzer.com/1114272507937415169/user/>
+        <http://purl.org/dc/terms/creator>
+                "iloveveterinary" ;
+        vcard:Locality  "" .
+
+<http://www.tweetanalyzer.com/1114272797700784128/user/>
+        <http://purl.org/dc/terms/creator>
+                "PochinkiPotato" ;
+        vcard:Locality  "" .
+
+<http://www.tweetanalyzer.com/1114273006283567106/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        vcard:LABEL  "English" .
+
+<http://www.tweetanalyzer.com/1114277570240032768/user/>
+        <http://purl.org/dc/terms/creator>
+                "Red Dwarf Fan Club" ;
+        vcard:Locality  "" .
+
+tweetanalyzer:1114272423090819072
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "Rrrrrafaela distraida por una paloma.👀\n.\n.\n.\n.\n.\n. . . \n#cat #animal #photooftheday #peru #cute #cats https://t.co/Q1cbHv9GmY https://t.co/03694dobvg" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:03 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114272423090819072"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114272423090819072/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114272423090819072/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1114273090089803776/user/>
+        <http://purl.org/dc/terms/creator>
+                "Alex Filipowski" ;
+        vcard:Locality  "North West of England" .
+
+<http://www.tweetanalyzer.com/1114276554673094660/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        vcard:LABEL  "English" .
+
+<http://www.tweetanalyzer.com/1114274429016707072/user/>
+        <http://purl.org/dc/terms/creator>
+                "Heather DeKlyen" ;
+        vcard:Locality  "Suburb of Chicago, Illinois" .
+
+<http://www.tweetanalyzer.com/1114277590053920771/user/>
+        <http://purl.org/dc/terms/creator>
+                "dinafragola" ;
+        vcard:Locality  "Belgium" .
+
+<http://www.tweetanalyzer.com/1114275866270470145/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "es" ;
+        vcard:LABEL  "Spanish" .
+
+tweetanalyzer:1114274173629628416
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "#sweetiepie #darling #kittycat #cat #beautiful #furbaby https://t.co/wBIZErb1Sx" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:10 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114274173629628416"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114274173629628416/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114274173629628416/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1114272391427915777/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "es" ;
+        vcard:LABEL  "Spanish" .
+
+<http://www.tweetanalyzer.com/1114273469007564801/user/>
+        <http://purl.org/dc/terms/creator>
+                "MissingCatsUK" ;
+        vcard:Locality  "United Kingdom" .
+
+<http://www.tweetanalyzer.com/1114275165184167936/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        vcard:LABEL  "English" .
+
+<http://www.tweetanalyzer.com/1114275403181559810/user/>
+        <http://purl.org/dc/terms/creator>
+                "Fighting to take back my Country! ᔦꙬᔨ" ;
+        vcard:Locality  "Kentucky, USA" .
+
+<http://www.tweetanalyzer.com/1114274458552946688/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        vcard:LABEL  "English" .
+
+tweetanalyzer:1114276517104640000
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "RT @bijutsu1: 『ゴッちゃん♫😺Go-chan 』(4/4/2019) #尾道 #千光寺公園 #尾道市立美術館 #茶トラ #cat #onomichi https://t.co/FXOmvMLLeC" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:19 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114276517104640000"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114276517104640000/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114276517104640000/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+tweetanalyzer:1114275509733609476
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "MINIS!!! Mini reject kitties! DM for yours!\n.\n#catsofinstagram #vinyldecals #vinylstickers #stickers #cat #blackcatsofinstagram #cute #findrejectkitty @ Los Angeles, California https://t.co/ZAIBmmOMn6" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:15 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114275509733609476"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114275509733609476/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114275509733609476/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1114274158408544259/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        vcard:LABEL  "English" .
+
+<http://www.tweetanalyzer.com/1114275418939387904/user/>
+        <http://purl.org/dc/terms/creator>
+                "Carlosfilipe" ;
+        vcard:Locality  "Portimão, Portugal" .
+
+<http://www.tweetanalyzer.com/1114274783921762304/user/>
+        <http://purl.org/dc/terms/creator>
+                "ガットピングイノ🐱🐧Gatto pinguino" ;
+        vcard:Locality  "乳と梨と落花生の地。" .
+
+tweetanalyzer:1114275337687273472
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "今日はメイニーの３回目の誕生日。\nたっぷり遊んであげよう。\n\n#mainecoonmix #cat #猫好きさんと繋がりたい https://t.co/aMPvDrQlGD" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:15 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114275337687273472"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114275337687273472/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114275337687273472/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1114274526362251264/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        vcard:LABEL  "English" .
+
+<http://www.tweetanalyzer.com/1114272165287878656/user/>
+        <http://purl.org/dc/terms/creator>
+                "Gnome Serum" ;
+        vcard:Locality  "Johnsonville NY" .
+
+<http://www.tweetanalyzer.com/1114276290515951617/user/>
+        <http://purl.org/dc/terms/creator>
+                "ForzaBlu Kenya" ;
+        vcard:Locality  "Nairobi, Kenya" .
+
+tweetanalyzer:1114276079236046849
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "RT @XxxsSnow: おはようございます😺\n\n#cat https://t.co/K5TAP4ycLr" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:18 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114276079236046849"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114276079236046849/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114276079236046849/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+tweetanalyzer:1114273498451435520
+        a       tweetanalyzer:animal ;
+        <http://purl.org/dc/elements/1.1/description>
+                "転がる\n #猫 #猫写真 #ラグドール #ragdoll #cat #にゃんぽとれ https://t.co/1Z48XU2SQt" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "4/5/19 10:07 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1114273498451435520"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1114273498451435520/lang/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1114273498451435520/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1114275470038765573/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        vcard:LABEL  "English" .
+
+<http://www.tweetanalyzer.com/1114275604558381056/user/>
+        <http://purl.org/dc/terms/creator>
+                "てる" ;
+        vcard:Locality  "" .
+
+<http://www.tweetanalyzer.com/1114272507937415169/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        vcard:LABEL  "English" .
+
+<http://www.tweetanalyzer.com/1114272797700784128/lang/>
+        <http://purl.org/dc/terms/identifier>
+                "und" ;
+        vcard:LABEL  "Indeterminado" .

@@ -1,0 +1,34 @@
+====== INITIALIZE MEMORY ======
+Opcion ===> Cliente : Stefan, Destino : Port Aventura, Fecha : Fri Apr 12 21:34:23 BST 2019
+Opcion ===> Cliente : Stefan, Destino : Jasna Góra, Fecha : Fri Apr 12 21:34:23 BST 2019
+====== ABSTRACT ======
+Regla "Cliente Tercera Edad" ===> Nombre : Stefan, TipoEdad : TERCERA_EDAD
+Regla "Ajuste Fisico Tercera Edad" ===> Nombre : Stefan, Fisico : 1
+Regla "Ajuste Fisico Discapacidad" ===> Nombre : Stefan, Discapacidad : true, Fisico : 1
+Regla "Ajuste Fisico Hijos" ===> Nombre : Stefan, #Hijos : 2, Fisico : 1
+Regla "Ajuste Entretenimiento Hijos" ===> Nombre : Stefan, #Hijos : 2, Entretenimiento : 4
+Regla "Ajuste Entretenimiento Tercera Edad" ===> Nombre : Stefan, TipoEdad : TERCERA_EDAD, Entretenimiento : 4
+Regla "Ajuste Cultura Educacion Universitaria" ===> Nombre : Stefan, Educacion : UNIVERSITARIO, Cultura : 4
+Regla "Ajuste Fisico Interes" ===> Nombre : Stefan, Interes : [DEPORTIVO, ENTRETENIMIENTO, CULTURAL], Fisico : 2
+Regla "Ajuste Cultura Interes" ===> Nombre : Stefan, Interes : [DEPORTIVO, ENTRETENIMIENTO, CULTURAL], Cultura : 5
+Regla "Ajuste Entretenimiento Interes" ===> Nombre : Stefan, Interes : [DEPORTIVO, ENTRETENIMIENTO, CULTURAL], Entretenimiento : 5
+====== SPECIFY ======
+Criterio de Destino ====> Jasna Góra
+Criterio de Destino ====> Port Aventura
+====== SELECT & EVALUATE ======
+Regla "Criterio Condicion Física" ===> Nombre : Stefan, Destino : Jasna Góra, Fisico : 2, Umbral Fisico : 1, Condicion Fisica : true
+Regla "Criterio Condicion Cultural" ===> Nombre : Stefan, Destino : Jasna Góra, Cultura : 5, Umbral Cultrual : 5, Condicion Cultural : true
+Regla "Criterio Condicion Cultural" ===> Nombre : Stefan, Destino : Port Aventura, Cultura : 5, Umbral Cultrual : 1, Condicion Cultural : true
+Regla "Criterio Condicion Entretenimiento" ===> Nombre : Stefan, Destino : Jasna Góra, Entretenimiento : 5, Umbral Entretenimiento : 1, Condicion Entretenimiento : true
+Regla "Criterio Condicion Entretenimiento" ===> Nombre : Stefan, Destino : Port Aventura, Entretenimiento : 5, Umbral Entretenimiento : 5, Condicion Entretenimiento : true
+Regla "Criterio Condicion Edad" ===> Nombre : Stefan, Destino : Jasna Góra, Edad Cliente : TERCERA_EDAD, Edades Recomendadas : 1, Condicion Entretenimiento : true
+Regla "Criterio Condicion Linguistica" ===> Nombre : Stefan, Destino : Jasna Góra, Idiomas Cliente : [INGLES, ALEMAN, ESPANOL], Idiomas Pais : [POLACO, INGLES], Cardinalidad interseccion : 1, Condicion Linguisitica : true
+Regla "Criterio Condicion Linguistica" ===> Nombre : Stefan, Destino : Port Aventura, Idiomas Cliente : [INGLES, ALEMAN, ESPANOL], Idiomas Pais : [INGLES, ESPANOL, FRANCES], Cardinalidad interseccion : 2, Condicion Linguisitica : true
+Regla "Criterio Condicion Solvencia" ===> Nombre : Stefan, Destino : Jasna Góra, Coste Max : 1000.0, Impagos Previos : false, Coste Pais : 100.0, Condicion Solvencia : true
+Regla "Criterio Condicion Solvencia" ===> Nombre : Stefan, Destino : Port Aventura, Coste Max : 1000.0, Impagos Previos : false, Coste Pais : 200.0, Condicion Solvencia : true
+Regla "Criterio Condicion Atractivo" ===> Nombre : Stefan, Destino : Jasna Góra, Intereses Cliente : [DEPORTIVO, ENTRETENIMIENTO, CULTURAL], Atractivo Turistico : [CULTURAL], Cardinalidad interseccion : 1, Condicion Atractivo : true
+Regla "Criterio Condicion Atractivo" ===> Nombre : Stefan, Destino : Port Aventura, Intereses Cliente : [DEPORTIVO, ENTRETENIMIENTO, CULTURAL], Atractivo Turistico : [ENTRETENIMIENTO], Cardinalidad interseccion : 2, Condicion Atractivo : true
+====== MATCH ======
+Regla "Regla Decisión 1" ===> Nombre : Stefan, Destino : Jasna Góra, Resultado : true
+
+[+] Se han disparado 19 reglas distintas en total

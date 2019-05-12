@@ -1,0 +1,418 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://purl.org/dc/terms/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+  <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111688179160178689">
+    <j.0:relation>
+      <rdf:Description rdf:about="http://www.tweetanalyzer.com/topic/">
+        <j.0:subject>
+          <rdf:Description rdf:about="http://www.tweetanalyzer.com/http://www.tweetanalyzer.com/topic//">
+            <vcard:LABEL>#Topic</vcard:LABEL>
+          </rdf:Description>
+        </j.0:subject>
+      </rdf:Description>
+    </j.0:relation>
+    <dc:description>RT @MantillaIgnacio: Comparto mi artículo semanal sobre la matemática más sobresaliente de nuestro tiempo. | #Topic via@EspectadorBlogs htt…</dc:description>
+    <j.0:dateSubmitted>3/29/19 5:54 PM</j.0:dateSubmitted>
+    <j.0:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >1111688179160178689</j.0:identifier>
+    <j.0:language>
+      <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111688179160178689/es/">
+        <j.0:language>Spanish</j.0:language>
+        <j.0:identifier>es</j.0:identifier>
+      </rdf:Description>
+    </j.0:language>
+    <j.0:publisher>
+      <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111688179160178689/user/">
+        <vcard:Locality></vcard:Locality>
+        <j.0:creator>CUNCIA TRUCUPEI</j.0:creator>
+      </rdf:Description>
+    </j.0:publisher>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111693270655086592">
+    <j.0:relation rdf:resource="http://www.tweetanalyzer.com/topic/"/>
+    <dc:description>RT @DSwyderski: #SHOUTOUT THESE TEAMS #SUPPORTING DA #DREAM #TheOhioPlayersProject #MOVIE IS BECOMING A #TRENDING #TOPIC ON #TWITTER 
+#TM_RUBY 
+#TEAMSTALLION 
+#TMLILY 
+#1DDrive 
+#CircleofFriends 
+#TeamPetal 
+#LV4GAB 
+@Ruby2211250220 @swydersk  @LiliBodo @lv4gab @Spencerjames211</dc:description>
+    <j.0:dateSubmitted>3/29/19 6:15 PM</j.0:dateSubmitted>
+    <j.0:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >1111693270655086592</j.0:identifier>
+    <j.0:language>
+      <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111693270655086592/en/">
+        <j.0:language>English</j.0:language>
+        <j.0:identifier>en</j.0:identifier>
+      </rdf:Description>
+    </j.0:language>
+    <j.0:publisher>
+      <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111693270655086592/user/">
+        <vcard:Locality>Texas</vcard:Locality>
+        <j.0:creator>W. Rix Victory II</j.0:creator>
+      </rdf:Description>
+    </j.0:publisher>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111729758335832066">
+    <j.0:relation rdf:resource="http://www.tweetanalyzer.com/topic/"/>
+    <dc:description>RT @BrettCateley: #SHOUTOUT THESE TEAMS #SUPPORTING DA #DREAM #TheOhioPlayersProject #MOVIE IS BECOMING A #TRENDING #TOPIC ON #TWITTER 
+#TM_RUBY 
+#TEAMSTALLION 
+#TMLILY 
+#1DDrive 
+#CircleofFriends 
+#TeamPetal 
+#LV4GAB 
+@Ruby2211250220  @Stallion_Team @swydersk  @LiliBodo @lv4gab</dc:description>
+    <j.0:dateSubmitted>3/29/19 8:40 PM</j.0:dateSubmitted>
+    <j.0:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >1111729758335832066</j.0:identifier>
+    <j.0:language>
+      <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111729758335832066/en/">
+        <j.0:language>English</j.0:language>
+        <j.0:identifier>en</j.0:identifier>
+      </rdf:Description>
+    </j.0:language>
+    <j.0:publisher>
+      <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111729758335832066/user/">
+        <vcard:Locality>Texas</vcard:Locality>
+        <j.0:creator>W. Rix Victory II</j.0:creator>
+      </rdf:Description>
+    </j.0:publisher>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111706867972091904">
+    <j.0:relation rdf:resource="http://www.tweetanalyzer.com/topic/"/>
+    <dc:description>RT @MantillaIgnacio: Comparto mi artículo semanal sobre la matemática más sobresaliente de nuestro tiempo. | #Topic via@EspectadorBlogs htt…</dc:description>
+    <j.0:dateSubmitted>3/29/19 7:09 PM</j.0:dateSubmitted>
+    <j.0:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >1111706867972091904</j.0:identifier>
+    <j.0:language>
+      <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111706867972091904/es/">
+        <j.0:language>Spanish</j.0:language>
+        <j.0:identifier>es</j.0:identifier>
+      </rdf:Description>
+    </j.0:language>
+    <j.0:publisher>
+      <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111706867972091904/user/">
+        <vcard:Locality>Colombia</vcard:Locality>
+        <j.0:creator>Milton J. Vera C.</j.0:creator>
+      </rdf:Description>
+    </j.0:publisher>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111718358397919232">
+    <j.0:relation rdf:resource="http://www.tweetanalyzer.com/topic/"/>
+    <dc:description>RT @MrsAatschool: Brilliant art work from Year 2 today! They have drawn some great Australian animals. #art #topic #rcps https://t.co/E0nds…</dc:description>
+    <j.0:dateSubmitted>3/29/19 7:54 PM</j.0:dateSubmitted>
+    <j.0:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >1111718358397919232</j.0:identifier>
+    <j.0:language>
+      <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111718358397919232/en/">
+        <j.0:language>English</j.0:language>
+        <j.0:identifier>en</j.0:identifier>
+      </rdf:Description>
+    </j.0:language>
+    <j.0:publisher>
+      <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111718358397919232/user/">
+        <vcard:Locality>Manchester, England</vcard:Locality>
+        <j.0:creator>Sandra G</j.0:creator>
+      </rdf:Description>
+    </j.0:publisher>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111727184002068482">
+    <j.0:relation rdf:resource="http://www.tweetanalyzer.com/topic/"/>
+    <dc:description>Hey, check out this cool site I found: https://t.co/rlnR0uLeVz #Topic via@my_twitter_name https://t.co/QIvoy20iAV</dc:description>
+    <j.0:dateSubmitted>3/29/19 8:29 PM</j.0:dateSubmitted>
+    <j.0:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >1111727184002068482</j.0:identifier>
+    <j.0:language>
+      <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111727184002068482/en/">
+        <j.0:language>English</j.0:language>
+        <j.0:identifier>en</j.0:identifier>
+      </rdf:Description>
+    </j.0:language>
+    <j.0:publisher>
+      <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111727184002068482/user/">
+        <vcard:Locality>United States</vcard:Locality>
+        <j.0:creator>patty c</j.0:creator>
+      </rdf:Description>
+    </j.0:publisher>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111697069687885824">
+    <j.0:relation rdf:resource="http://www.tweetanalyzer.com/topic/"/>
+    <dc:description>It’s my most #favorite #topic ☕️❤️ COFFEE! Let’s #talk about it! ❤️ https://t.co/TvXpGrdwtL ☕️🎉🎊 #coffeeandjesus #jesusandcoffee #keto #coffee #ketocoffee #bulletproofcoffee @starbucks @dunkin @wawa @perfectketo @burnbutters @primalkitchenfoods https://t.co/SH17UhM0qx</dc:description>
+    <j.0:dateSubmitted>3/29/19 6:30 PM</j.0:dateSubmitted>
+    <j.0:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >1111697069687885824</j.0:identifier>
+    <j.0:language>
+      <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111697069687885824/en/">
+        <j.0:language>English</j.0:language>
+        <j.0:identifier>en</j.0:identifier>
+      </rdf:Description>
+    </j.0:language>
+    <j.0:publisher>
+      <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111697069687885824/user/">
+        <vcard:Locality></vcard:Locality>
+        <j.0:creator>2krazyketos</j.0:creator>
+      </rdf:Description>
+    </j.0:publisher>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111744660844802049">
+    <j.0:relation rdf:resource="http://www.tweetanalyzer.com/topic/"/>
+    <dc:description>@patriciodelgado No es tan fácil como yo quisiera :( El apellido #Topic es casi un pecado en Ecuador por el caso de mi papi.</dc:description>
+    <j.0:dateSubmitted>3/29/19 9:39 PM</j.0:dateSubmitted>
+    <j.0:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >1111744660844802049</j.0:identifier>
+    <j.0:language>
+      <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111744660844802049/es/">
+        <j.0:language>Spanish</j.0:language>
+        <j.0:identifier>es</j.0:identifier>
+      </rdf:Description>
+    </j.0:language>
+    <j.0:publisher>
+      <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111744660844802049/user/">
+        <vcard:Locality></vcard:Locality>
+        <j.0:creator>Mala Topic</j.0:creator>
+      </rdf:Description>
+    </j.0:publisher>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111737973261955074">
+    <j.0:relation rdf:resource="http://www.tweetanalyzer.com/topic/"/>
+    <dc:description>Hey, check out this cool site I found: https://t.co/ytRORhA3S3 #Topic via@my_twitter_name https://t.co/BadE4S7FkK</dc:description>
+    <j.0:dateSubmitted>3/29/19 9:12 PM</j.0:dateSubmitted>
+    <j.0:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >1111737973261955074</j.0:identifier>
+    <j.0:language>
+      <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111737973261955074/en/">
+        <j.0:language>English</j.0:language>
+        <j.0:identifier>en</j.0:identifier>
+      </rdf:Description>
+    </j.0:language>
+    <j.0:publisher>
+      <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111737973261955074/user/">
+        <vcard:Locality></vcard:Locality>
+        <j.0:creator>FotosdelShow</j.0:creator>
+      </rdf:Description>
+    </j.0:publisher>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111738910332387328">
+    <j.0:relation rdf:resource="http://www.tweetanalyzer.com/topic/"/>
+    <dc:description>Hey, check out this cool site I found: https://t.co/RqMaqiEA9K #Topic via@my_twitter_name https://t.co/2zyMdTuXBf</dc:description>
+    <j.0:dateSubmitted>3/29/19 9:16 PM</j.0:dateSubmitted>
+    <j.0:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >1111738910332387328</j.0:identifier>
+    <j.0:language>
+      <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111738910332387328/en/">
+        <j.0:language>English</j.0:language>
+        <j.0:identifier>en</j.0:identifier>
+      </rdf:Description>
+    </j.0:language>
+    <j.0:publisher>
+      <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111738910332387328/user/">
+        <vcard:Locality>Wisconsin, USA</vcard:Locality>
+        <j.0:creator>Olya Amanova</j.0:creator>
+      </rdf:Description>
+    </j.0:publisher>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111756375229714435">
+    <j.0:relation rdf:resource="http://www.tweetanalyzer.com/topic/"/>
+    <dc:description>#Topic via@EspectadorBlogs https://t.co/4YYIxltUeK</dc:description>
+    <j.0:dateSubmitted>3/29/19 10:25 PM</j.0:dateSubmitted>
+    <j.0:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >1111756375229714435</j.0:identifier>
+    <j.0:language>
+      <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111756375229714435/und/">
+        <j.0:language>Indeterminado</j.0:language>
+        <j.0:identifier>und</j.0:identifier>
+      </rdf:Description>
+    </j.0:language>
+    <j.0:publisher>
+      <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111756375229714435/user/">
+        <vcard:Locality>Bogotá, D.C., Colombia</vcard:Locality>
+        <j.0:creator>Carolina</j.0:creator>
+      </rdf:Description>
+    </j.0:publisher>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111684476525006849">
+    <j.0:relation rdf:resource="http://www.tweetanalyzer.com/topic/"/>
+    <dc:description>#Topic：汶萊成為亞洲第一個將同性戀定為死罪的國家 https://t.co/mf2T0T9bbD https://t.co/vveFGnpLF5</dc:description>
+    <j.0:dateSubmitted>3/29/19 5:40 PM</j.0:dateSubmitted>
+    <j.0:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >1111684476525006849</j.0:identifier>
+    <j.0:language>
+      <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111684476525006849/zh/">
+        <j.0:language>Chinese</j.0:language>
+        <j.0:identifier>zh</j.0:identifier>
+      </rdf:Description>
+    </j.0:language>
+    <j.0:publisher>
+      <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111684476525006849/user/">
+        <vcard:Locality>纽约</vcard:Locality>
+        <j.0:creator>每日精选</j.0:creator>
+      </rdf:Description>
+    </j.0:publisher>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111711602343112705">
+    <j.0:relation rdf:resource="http://www.tweetanalyzer.com/topic/"/>
+    <dc:description>RT @Wrix2: RT @wanderingstarz1: #FridayThoughts #TheOhioPlayersProject #BIOPIC IS BECOMING A #TRENDING #TOPIC ON #TWITTER CHECK IT OUT  @Fu…</dc:description>
+    <j.0:dateSubmitted>3/29/19 7:27 PM</j.0:dateSubmitted>
+    <j.0:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >1111711602343112705</j.0:identifier>
+    <j.0:language>
+      <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111711602343112705/en/">
+        <j.0:language>English</j.0:language>
+        <j.0:identifier>en</j.0:identifier>
+      </rdf:Description>
+    </j.0:language>
+    <j.0:publisher>
+      <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111711602343112705/user/">
+        <vcard:Locality>Louisiana!</vcard:Locality>
+        <j.0:creator>PATRICIA💋</j.0:creator>
+      </rdf:Description>
+    </j.0:publisher>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111739159557951488">
+    <j.0:relation rdf:resource="http://www.tweetanalyzer.com/topic/"/>
+    <dc:description>Hey, check out this cool site I found: https://t.co/RqMaqiEA9K #Topic via@my_twitter_name https://t.co/vCqHGMiTEM</dc:description>
+    <j.0:dateSubmitted>3/29/19 9:17 PM</j.0:dateSubmitted>
+    <j.0:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >1111739159557951488</j.0:identifier>
+    <j.0:language>
+      <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111739159557951488/en/">
+        <j.0:language>English</j.0:language>
+        <j.0:identifier>en</j.0:identifier>
+      </rdf:Description>
+    </j.0:language>
+    <j.0:publisher>
+      <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111739159557951488/user/">
+        <vcard:Locality>Wisconsin, USA</vcard:Locality>
+        <j.0:creator>Olya Amanova</j.0:creator>
+      </rdf:Description>
+    </j.0:publisher>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111730089270620160">
+    <j.0:relation rdf:resource="http://www.tweetanalyzer.com/topic/"/>
+    <dc:description>Hey, check out this cool site I found: https://t.co/ytRORhA3S3 #Topic via@my_twitter_name https://t.co/vNq3oTQ7bv</dc:description>
+    <j.0:dateSubmitted>3/29/19 8:41 PM</j.0:dateSubmitted>
+    <j.0:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >1111730089270620160</j.0:identifier>
+    <j.0:language>
+      <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111730089270620160/en/">
+        <j.0:language>English</j.0:language>
+        <j.0:identifier>en</j.0:identifier>
+      </rdf:Description>
+    </j.0:language>
+    <j.0:publisher>
+      <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111730089270620160/user/">
+        <vcard:Locality></vcard:Locality>
+        <j.0:creator>FotosdelShow</j.0:creator>
+      </rdf:Description>
+    </j.0:publisher>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111723945307312130">
+    <j.0:relation rdf:resource="http://www.tweetanalyzer.com/topic/"/>
+    <dc:description>RT @ChurchillHPS: We are focusing on the structure of our writing and the vocabulary that we are using #english #writing #recount #topic ht…</dc:description>
+    <j.0:dateSubmitted>3/29/19 8:16 PM</j.0:dateSubmitted>
+    <j.0:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >1111723945307312130</j.0:identifier>
+    <j.0:language>
+      <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111723945307312130/en/">
+        <j.0:language>English</j.0:language>
+        <j.0:identifier>en</j.0:identifier>
+      </rdf:Description>
+    </j.0:language>
+    <j.0:publisher>
+      <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111723945307312130/user/">
+        <vcard:Locality>Chesterfield, Derbyshire</vcard:Locality>
+        <j.0:creator>Hollingwood Primary</j.0:creator>
+      </rdf:Description>
+    </j.0:publisher>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111722212757827585">
+    <j.0:relation rdf:resource="http://www.tweetanalyzer.com/topic/"/>
+    <dc:description>RT @BrettCateley: #SHOUTOUT THESE TEAMS #SUPPORTING DA #DREAM #TheOhioPlayersProject #MOVIE IS BECOMING A #TRENDING #TOPIC ON #TWITTER 
+#TM_RUBY 
+#TEAMSTALLION 
+#TMLILY 
+#1DDrive 
+#CircleofFriends 
+#TeamPetal 
+#LV4GAB 
+@Ruby2211250220 @swydersk  @LiliBodo @lv4gab @Spencerjames211</dc:description>
+    <j.0:dateSubmitted>3/29/19 8:10 PM</j.0:dateSubmitted>
+    <j.0:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >1111722212757827585</j.0:identifier>
+    <j.0:language>
+      <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111722212757827585/en/">
+        <j.0:language>English</j.0:language>
+        <j.0:identifier>en</j.0:identifier>
+      </rdf:Description>
+    </j.0:language>
+    <j.0:publisher>
+      <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111722212757827585/user/">
+        <vcard:Locality>Texas</vcard:Locality>
+        <j.0:creator>W. Rix Victory II</j.0:creator>
+      </rdf:Description>
+    </j.0:publisher>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111759864521461761">
+    <j.0:relation rdf:resource="http://www.tweetanalyzer.com/topic/"/>
+    <dc:description>RT @MantillaIgnacio: Comparto mi artículo semanal sobre la matemática más sobresaliente de nuestro tiempo. | #Topic via@EspectadorBlogs htt…</dc:description>
+    <j.0:dateSubmitted>3/29/19 10:39 PM</j.0:dateSubmitted>
+    <j.0:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >1111759864521461761</j.0:identifier>
+    <j.0:language>
+      <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111759864521461761/es/">
+        <j.0:language>Spanish</j.0:language>
+        <j.0:identifier>es</j.0:identifier>
+      </rdf:Description>
+    </j.0:language>
+    <j.0:publisher>
+      <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111759864521461761/user/">
+        <vcard:Locality>Bogotá</vcard:Locality>
+        <j.0:creator>Maria Acosta</j.0:creator>
+      </rdf:Description>
+    </j.0:publisher>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111729166192427010">
+    <j.0:relation rdf:resource="http://www.tweetanalyzer.com/topic/"/>
+    <dc:description>Hey, check out https://t.co/GgV58zu3Qv cool site I found: https://t.co/NTfL7DKDTO #Topic via@my_twitter_name https://t.co/T2cEOuXhi6</dc:description>
+    <j.0:dateSubmitted>3/29/19 8:37 PM</j.0:dateSubmitted>
+    <j.0:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >1111729166192427010</j.0:identifier>
+    <j.0:language>
+      <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111729166192427010/en/">
+        <j.0:language>English</j.0:language>
+        <j.0:identifier>en</j.0:identifier>
+      </rdf:Description>
+    </j.0:language>
+    <j.0:publisher>
+      <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111729166192427010/user/">
+        <vcard:Locality>españa</vcard:Locality>
+        <j.0:creator>jose sueldo</j.0:creator>
+      </rdf:Description>
+    </j.0:publisher>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111712439333212161">
+    <j.0:relation rdf:resource="http://www.tweetanalyzer.com/topic/"/>
+    <dc:description>Hey, check out this cool site I found: https://t.co/LDqs2s7QqN #Topic via@my_twitter_name https://t.co/cEt62fu5Wt</dc:description>
+    <j.0:dateSubmitted>3/29/19 7:31 PM</j.0:dateSubmitted>
+    <j.0:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#long"
+    >1111712439333212161</j.0:identifier>
+    <j.0:language>
+      <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111712439333212161/en/">
+        <j.0:language>English</j.0:language>
+        <j.0:identifier>en</j.0:identifier>
+      </rdf:Description>
+    </j.0:language>
+    <j.0:publisher>
+      <rdf:Description rdf:about="http://www.tweetanalyzer.com/1111712439333212161/user/">
+        <vcard:Locality>Cataluña, España</vcard:Locality>
+        <j.0:creator>chechbcn</j.0:creator>
+      </rdf:Description>
+    </j.0:publisher>
+  </rdf:Description>
+</rdf:RDF>

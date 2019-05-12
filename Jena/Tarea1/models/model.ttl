@@ -1,0 +1,527 @@
+<http://www.tweetanalyzer.com/1111697069687885824/user/>
+        <http://purl.org/dc/terms/creator>
+                "2krazyketos" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#Locality>
+                "" .
+
+<http://www.tweetanalyzer.com/1111706867972091904>
+        <http://purl.org/dc/elements/1.1/description>
+                "RT @MantillaIgnacio: Comparto mi artículo semanal sobre la matemática más sobresaliente de nuestro tiempo. | #Topic via@EspectadorBlogs htt…" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "3/29/19 7:09 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1111706867972091904"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1111706867972091904/es/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1111706867972091904/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1111718358397919232/en/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        <http://purl.org/dc/terms/language>
+                "English" .
+
+<http://www.tweetanalyzer.com/http://www.tweetanalyzer.com/topic//>
+        <http://www.w3.org/2001/vcard-rdf/3.0#LABEL>
+                "#Topic" .
+
+<http://www.tweetanalyzer.com/1111723945307312130/en/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        <http://purl.org/dc/terms/language>
+                "English" .
+
+<http://www.tweetanalyzer.com/1111727184002068482>
+        <http://purl.org/dc/elements/1.1/description>
+                "Hey, check out this cool site I found: https://t.co/rlnR0uLeVz #Topic via@my_twitter_name https://t.co/QIvoy20iAV" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "3/29/19 8:29 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1111727184002068482"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1111727184002068482/en/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1111727184002068482/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1111738910332387328/user/>
+        <http://purl.org/dc/terms/creator>
+                "Olya Amanova" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#Locality>
+                "Wisconsin, USA" .
+
+<http://www.tweetanalyzer.com/1111723945307312130>
+        <http://purl.org/dc/elements/1.1/description>
+                "RT @ChurchillHPS: We are focusing on the structure of our writing and the vocabulary that we are using #english #writing #recount #topic ht…" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "3/29/19 8:16 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1111723945307312130"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1111723945307312130/en/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1111723945307312130/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1111730089270620160>
+        <http://purl.org/dc/elements/1.1/description>
+                "Hey, check out this cool site I found: https://t.co/ytRORhA3S3 #Topic via@my_twitter_name https://t.co/vNq3oTQ7bv" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "3/29/19 8:41 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1111730089270620160"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1111730089270620160/en/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1111730089270620160/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1111729166192427010/en/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        <http://purl.org/dc/terms/language>
+                "English" .
+
+<http://www.tweetanalyzer.com/1111738910332387328>
+        <http://purl.org/dc/elements/1.1/description>
+                "Hey, check out this cool site I found: https://t.co/RqMaqiEA9K #Topic via@my_twitter_name https://t.co/2zyMdTuXBf" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "3/29/19 9:16 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1111738910332387328"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1111738910332387328/en/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1111738910332387328/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1111759864521461761/es/>
+        <http://purl.org/dc/terms/identifier>
+                "es" ;
+        <http://purl.org/dc/terms/language>
+                "Spanish" .
+
+<http://www.tweetanalyzer.com/1111727184002068482/en/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        <http://purl.org/dc/terms/language>
+                "English" .
+
+<http://www.tweetanalyzer.com/1111718358397919232>
+        <http://purl.org/dc/elements/1.1/description>
+                "RT @MrsAatschool: Brilliant art work from Year 2 today! They have drawn some great Australian animals. #art #topic #rcps https://t.co/E0nds…" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "3/29/19 7:54 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1111718358397919232"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1111718358397919232/en/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1111718358397919232/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1111693270655086592/user/>
+        <http://purl.org/dc/terms/creator>
+                "W. Rix Victory II" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#Locality>
+                "Texas" .
+
+<http://www.tweetanalyzer.com/1111723945307312130/user/>
+        <http://purl.org/dc/terms/creator>
+                "Hollingwood Primary" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#Locality>
+                "Chesterfield, Derbyshire" .
+
+<http://www.tweetanalyzer.com/1111722212757827585/user/>
+        <http://purl.org/dc/terms/creator>
+                "W. Rix Victory II" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#Locality>
+                "Texas" .
+
+<http://www.tweetanalyzer.com/1111730089270620160/en/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        <http://purl.org/dc/terms/language>
+                "English" .
+
+<http://www.tweetanalyzer.com/1111759864521461761/user/>
+        <http://purl.org/dc/terms/creator>
+                "Maria Acosta" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#Locality>
+                "Bogotá" .
+
+<http://www.tweetanalyzer.com/1111718358397919232/user/>
+        <http://purl.org/dc/terms/creator>
+                "Sandra G" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#Locality>
+                "Manchester, England" .
+
+<http://www.tweetanalyzer.com/1111739159557951488/user/>
+        <http://purl.org/dc/terms/creator>
+                "Olya Amanova" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#Locality>
+                "Wisconsin, USA" .
+
+<http://www.tweetanalyzer.com/1111712439333212161>
+        <http://purl.org/dc/elements/1.1/description>
+                "Hey, check out this cool site I found: https://t.co/LDqs2s7QqN #Topic via@my_twitter_name https://t.co/cEt62fu5Wt" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "3/29/19 7:31 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1111712439333212161"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1111712439333212161/en/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1111712439333212161/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1111712439333212161/user/>
+        <http://purl.org/dc/terms/creator>
+                "chechbcn" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#Locality>
+                "Cataluña, España" .
+
+<http://www.tweetanalyzer.com/1111729758335832066>
+        <http://purl.org/dc/elements/1.1/description>
+                "RT @BrettCateley: #SHOUTOUT THESE TEAMS #SUPPORTING DA #DREAM #TheOhioPlayersProject #MOVIE IS BECOMING A #TRENDING #TOPIC ON #TWITTER \n#TM_RUBY \n#TEAMSTALLION \n#TMLILY \n#1DDrive \n#CircleofFriends \n#TeamPetal \n#LV4GAB \n@Ruby2211250220  @Stallion_Team @swydersk  @LiliBodo @lv4gab" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "3/29/19 8:40 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1111729758335832066"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1111729758335832066/en/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1111729758335832066/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1111759864521461761>
+        <http://purl.org/dc/elements/1.1/description>
+                "RT @MantillaIgnacio: Comparto mi artículo semanal sobre la matemática más sobresaliente de nuestro tiempo. | #Topic via@EspectadorBlogs htt…" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "3/29/19 10:39 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1111759864521461761"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1111759864521461761/es/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1111759864521461761/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1111722212757827585/en/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        <http://purl.org/dc/terms/language>
+                "English" .
+
+<http://www.tweetanalyzer.com/1111711602343112705/user/>
+        <http://purl.org/dc/terms/creator>
+                "PATRICIA💋" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#Locality>
+                "Louisiana!" .
+
+<http://www.tweetanalyzer.com/1111729166192427010>
+        <http://purl.org/dc/elements/1.1/description>
+                "Hey, check out https://t.co/GgV58zu3Qv cool site I found: https://t.co/NTfL7DKDTO #Topic via@my_twitter_name https://t.co/T2cEOuXhi6" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "3/29/19 8:37 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1111729166192427010"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1111729166192427010/en/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1111729166192427010/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1111744660844802049>
+        <http://purl.org/dc/elements/1.1/description>
+                "@patriciodelgado No es tan fácil como yo quisiera :( El apellido #Topic es casi un pecado en Ecuador por el caso de mi papi." ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "3/29/19 9:39 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1111744660844802049"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1111744660844802049/es/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1111744660844802049/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1111738910332387328/en/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        <http://purl.org/dc/terms/language>
+                "English" .
+
+<http://www.tweetanalyzer.com/1111684476525006849>
+        <http://purl.org/dc/elements/1.1/description>
+                "#Topic：汶萊成為亞洲第一個將同性戀定為死罪的國家 https://t.co/mf2T0T9bbD https://t.co/vveFGnpLF5" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "3/29/19 5:40 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1111684476525006849"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1111684476525006849/zh/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1111684476525006849/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1111697069687885824/en/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        <http://purl.org/dc/terms/language>
+                "English" .
+
+<http://www.tweetanalyzer.com/1111688179160178689/es/>
+        <http://purl.org/dc/terms/identifier>
+                "es" ;
+        <http://purl.org/dc/terms/language>
+                "Spanish" .
+
+<http://www.tweetanalyzer.com/1111688179160178689/user/>
+        <http://purl.org/dc/terms/creator>
+                "CUNCIA TRUCUPEI" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#Locality>
+                "" .
+
+<http://www.tweetanalyzer.com/1111756375229714435>
+        <http://purl.org/dc/elements/1.1/description>
+                "#Topic via@EspectadorBlogs https://t.co/4YYIxltUeK" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "3/29/19 10:25 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1111756375229714435"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1111756375229714435/und/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1111756375229714435/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1111756375229714435/und/>
+        <http://purl.org/dc/terms/identifier>
+                "und" ;
+        <http://purl.org/dc/terms/language>
+                "Indeterminado" .
+
+<http://www.tweetanalyzer.com/1111711602343112705/en/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        <http://purl.org/dc/terms/language>
+                "English" .
+
+<http://www.tweetanalyzer.com/1111729758335832066/en/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        <http://purl.org/dc/terms/language>
+                "English" .
+
+<http://www.tweetanalyzer.com/1111737973261955074>
+        <http://purl.org/dc/elements/1.1/description>
+                "Hey, check out this cool site I found: https://t.co/ytRORhA3S3 #Topic via@my_twitter_name https://t.co/BadE4S7FkK" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "3/29/19 9:12 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1111737973261955074"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1111737973261955074/en/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1111737973261955074/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1111684476525006849/zh/>
+        <http://purl.org/dc/terms/identifier>
+                "zh" ;
+        <http://purl.org/dc/terms/language>
+                "Chinese" .
+
+<http://www.tweetanalyzer.com/1111722212757827585>
+        <http://purl.org/dc/elements/1.1/description>
+                "RT @BrettCateley: #SHOUTOUT THESE TEAMS #SUPPORTING DA #DREAM #TheOhioPlayersProject #MOVIE IS BECOMING A #TRENDING #TOPIC ON #TWITTER \n#TM_RUBY \n#TEAMSTALLION \n#TMLILY \n#1DDrive \n#CircleofFriends \n#TeamPetal \n#LV4GAB \n@Ruby2211250220 @swydersk  @LiliBodo @lv4gab @Spencerjames211" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "3/29/19 8:10 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1111722212757827585"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1111722212757827585/en/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1111722212757827585/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1111693270655086592/en/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        <http://purl.org/dc/terms/language>
+                "English" .
+
+<http://www.tweetanalyzer.com/1111729758335832066/user/>
+        <http://purl.org/dc/terms/creator>
+                "W. Rix Victory II" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#Locality>
+                "Texas" .
+
+<http://www.tweetanalyzer.com/1111737973261955074/en/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        <http://purl.org/dc/terms/language>
+                "English" .
+
+<http://www.tweetanalyzer.com/1111711602343112705>
+        <http://purl.org/dc/elements/1.1/description>
+                "RT @Wrix2: RT @wanderingstarz1: #FridayThoughts #TheOhioPlayersProject #BIOPIC IS BECOMING A #TRENDING #TOPIC ON #TWITTER CHECK IT OUT  @Fu…" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "3/29/19 7:27 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1111711602343112705"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1111711602343112705/en/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1111711602343112705/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1111744660844802049/user/>
+        <http://purl.org/dc/terms/creator>
+                "Mala Topic" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#Locality>
+                "" .
+
+<http://www.tweetanalyzer.com/1111730089270620160/user/>
+        <http://purl.org/dc/terms/creator>
+                "FotosdelShow" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#Locality>
+                "" .
+
+<http://www.tweetanalyzer.com/1111739159557951488>
+        <http://purl.org/dc/elements/1.1/description>
+                "Hey, check out this cool site I found: https://t.co/RqMaqiEA9K #Topic via@my_twitter_name https://t.co/vCqHGMiTEM" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "3/29/19 9:17 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1111739159557951488"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1111739159557951488/en/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1111739159557951488/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1111706867972091904/es/>
+        <http://purl.org/dc/terms/identifier>
+                "es" ;
+        <http://purl.org/dc/terms/language>
+                "Spanish" .
+
+<http://www.tweetanalyzer.com/1111727184002068482/user/>
+        <http://purl.org/dc/terms/creator>
+                "patty c" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#Locality>
+                "United States" .
+
+<http://www.tweetanalyzer.com/1111688179160178689>
+        <http://purl.org/dc/elements/1.1/description>
+                "RT @MantillaIgnacio: Comparto mi artículo semanal sobre la matemática más sobresaliente de nuestro tiempo. | #Topic via@EspectadorBlogs htt…" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "3/29/19 5:54 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1111688179160178689"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1111688179160178689/es/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1111688179160178689/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1111756375229714435/user/>
+        <http://purl.org/dc/terms/creator>
+                "Carolina" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#Locality>
+                "Bogotá, D.C., Colombia" .
+
+<http://www.tweetanalyzer.com/1111706867972091904/user/>
+        <http://purl.org/dc/terms/creator>
+                "Milton J. Vera C." ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#Locality>
+                "Colombia" .
+
+<http://www.tweetanalyzer.com/1111739159557951488/en/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        <http://purl.org/dc/terms/language>
+                "English" .
+
+<http://www.tweetanalyzer.com/1111729166192427010/user/>
+        <http://purl.org/dc/terms/creator>
+                "jose sueldo" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#Locality>
+                "españa" .
+
+<http://www.tweetanalyzer.com/1111712439333212161/en/>
+        <http://purl.org/dc/terms/identifier>
+                "en" ;
+        <http://purl.org/dc/terms/language>
+                "English" .
+
+<http://www.tweetanalyzer.com/1111737973261955074/user/>
+        <http://purl.org/dc/terms/creator>
+                "FotosdelShow" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#Locality>
+                "" .
+
+<http://www.tweetanalyzer.com/1111744660844802049/es/>
+        <http://purl.org/dc/terms/identifier>
+                "es" ;
+        <http://purl.org/dc/terms/language>
+                "Spanish" .
+
+<http://www.tweetanalyzer.com/1111693270655086592>
+        <http://purl.org/dc/elements/1.1/description>
+                "RT @DSwyderski: #SHOUTOUT THESE TEAMS #SUPPORTING DA #DREAM #TheOhioPlayersProject #MOVIE IS BECOMING A #TRENDING #TOPIC ON #TWITTER \n#TM_RUBY \n#TEAMSTALLION \n#TMLILY \n#1DDrive \n#CircleofFriends \n#TeamPetal \n#LV4GAB \n@Ruby2211250220 @swydersk  @LiliBodo @lv4gab @Spencerjames211" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "3/29/19 6:15 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1111693270655086592"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1111693270655086592/en/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1111693270655086592/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1111697069687885824>
+        <http://purl.org/dc/elements/1.1/description>
+                "It’s my most #favorite #topic ☕️❤️ COFFEE! Let’s #talk about it! ❤️ https://t.co/TvXpGrdwtL ☕️🎉🎊 #coffeeandjesus #jesusandcoffee #keto #coffee #ketocoffee #bulletproofcoffee @starbucks @dunkin @wawa @perfectketo @burnbutters @primalkitchenfoods https://t.co/SH17UhM0qx" ;
+        <http://purl.org/dc/terms/dateSubmitted>
+                "3/29/19 6:30 PM" ;
+        <http://purl.org/dc/terms/identifier>
+                "1111697069687885824"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://purl.org/dc/terms/language>
+                <http://www.tweetanalyzer.com/1111697069687885824/en/> ;
+        <http://purl.org/dc/terms/publisher>
+                <http://www.tweetanalyzer.com/1111697069687885824/user/> ;
+        <http://purl.org/dc/terms/relation>
+                <http://www.tweetanalyzer.com/topic/> .
+
+<http://www.tweetanalyzer.com/1111684476525006849/user/>
+        <http://purl.org/dc/terms/creator>
+                "每日精选" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#Locality>
+                "纽约" .
+
+<http://www.tweetanalyzer.com/topic/>
+        <http://purl.org/dc/terms/subject>
+                <http://www.tweetanalyzer.com/http://www.tweetanalyzer.com/topic//> .

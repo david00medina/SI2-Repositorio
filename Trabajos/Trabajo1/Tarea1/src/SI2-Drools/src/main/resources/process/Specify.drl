@@ -1,0 +1,33 @@
+package process
+
+//list any import classes here.
+
+import com.relationship.Opcion;
+import com.concept.destino.Destino;
+import com.concept.criterion.CondicionFisica;
+import com.concept.criterion.CondicionLinguistica;
+import com.concept.criterion.CondicionSolvencia;
+import com.concept.criterion.CondicionEdad;
+import com.concept.criterion.CondicionAtractivo;
+import com.concept.criterion.CondicionCultural;
+import com.concept.criterion.CondicionEntretenimiento;
+
+//declare any global variables here
+
+
+
+
+rule "Specify All Criterions"
+	ruleflow-group "specify"
+    when
+    	Opcion($destino: destino)
+    then
+    	System.out.println("Criterio de Destino ====> " + $destino.getDestino());
+		insert(new CondicionFisica($destino));
+		insert(new CondicionLinguistica($destino));
+		insert(new CondicionSolvencia($destino));
+		insert(new CondicionEdad($destino));
+		insert(new CondicionAtractivo($destino));
+		insert(new CondicionCultural($destino));
+		insert(new CondicionEntretenimiento($destino));
+end

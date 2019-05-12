@@ -1,0 +1,42 @@
+package process
+
+//list any import classes here.
+
+import com.relationship.Opcion;
+import com.concept.destino.Destino;
+import com.concept.criterion.CondicionFisica;
+import com.concept.criterion.CondicionCultural;
+import com.concept.criterion.CondicionEntretenimiento;
+import com.concept.criterion.CondicionEdad;
+import com.concept.criterion.CondicionLinguistica;
+import com.concept.criterion.CondicionSolvencia;
+import com.concept.criterion.CondicionAtractivo;
+import com.concept.match.ResultadoValoracion;
+
+//declare any global variables here
+
+
+
+
+rule "Regla Decisión 1"
+	ruleflow-group "match"
+    when
+        $opcion : Opcion($cliente: cliente, $destino: destino)
+        CondicionFisica(destino == $destino, cumpleCriterio == true)
+        CondicionCultural(destino == $destino, cumpleCriterio == true)
+        CondicionEntretenimiento(destino == $destino, cumpleCriterio == true)
+        CondicionEdad(destino == $destino, cumpleCriterio == true)
+        CondicionLinguistica(destino == $destino, cumpleCriterio == true)
+        CondicionSolvencia(destino == $destino, cumpleCriterio == true)
+        CondicionAtractivo(destino == $destino, cumpleCriterio == true)
+    then
+    	ResultadoValoracion rv = new ResultadoValoracion();
+    	rv.setResultado(true);
+    	modify($opcion) {
+    		setResultadoValoracion(rv);
+    	};
+        System.out.println("Regla \"Regla Decisión 1\" ===> "
+        + "Nombre : " + $cliente.getInfoPersonal().getNombre() + ", "
+        + "Destino : " + $destino.getDestino() + ", "
+        + "Resultado : " + $opcion.getResultadoValoracion().isResultado());
+end

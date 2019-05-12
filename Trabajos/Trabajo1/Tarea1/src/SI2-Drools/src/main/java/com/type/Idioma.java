@@ -1,0 +1,23 @@
+package com.type;
+
+public enum Idioma {
+	ESPANOL, 
+	INGLES, 
+	POLACO, 
+	RUSO, 
+	CHINO, 
+	JAPONES,
+	COREANO,
+	TAILANDES,
+	FRANCES, 
+	ALEMAN, 
+	HUNGARO, 
+	TURCO, 
+	GRIEGO, 
+	ITALIANO, 
+	NORUEGO, 
+	SUECO, 
+	FINLANDES, 
+	ESLOVACO, 
+	HINDU;
+}
