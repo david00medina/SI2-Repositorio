@@ -615,54 +615,6 @@
     </step>
 
   <step>
-    <name>Region Subregion Lookup</name>
-    <type>StreamLookup</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <from>Country DB</from>
-    <input_sorted>N</input_sorted>
-    <preserve_memory>Y</preserve_memory>
-    <sorted_list>N</sorted_list>
-    <integer_pair>N</integer_pair>
-    <lookup>
-      <key>
-        <name>CountryCode</name>
-        <field>alpha-2</field>
-      </key>
-      <value>
-        <name>region</name>
-        <rename>region</rename>
-        <default/>
-        <type>String</type>
-      </value>
-      <value>
-        <name>sub-region</name>
-        <rename>sub-region</rename>
-        <default/>
-        <type>String</type>
-      </value>
-    </lookup>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>368</xloc>
-      <yloc>192</yloc>
-      <draw>Y</draw>
-    </GUI>
-    </step>
-
-  <step>
     <name>Recover Loss Tweets</name>
     <type>CsvInput</type>
     <description/>
@@ -727,7 +679,7 @@
         <currency>&#x24;</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>8</length>
+        <length>9</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
@@ -775,6 +727,54 @@
     <GUI>
       <xloc>192</xloc>
       <yloc>256</yloc>
+      <draw>Y</draw>
+    </GUI>
+    </step>
+
+  <step>
+    <name>Region Subregion Lookup</name>
+    <type>StreamLookup</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <from>Country DB</from>
+    <input_sorted>N</input_sorted>
+    <preserve_memory>Y</preserve_memory>
+    <sorted_list>N</sorted_list>
+    <integer_pair>N</integer_pair>
+    <lookup>
+      <key>
+        <name>CountryCode</name>
+        <field>alpha-2</field>
+      </key>
+      <value>
+        <name>region</name>
+        <rename>region</rename>
+        <default/>
+        <type>String</type>
+      </value>
+      <value>
+        <name>sub-region</name>
+        <rename>sub-region</rename>
+        <default/>
+        <type>String</type>
+      </value>
+    </lookup>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>368</xloc>
+      <yloc>192</yloc>
       <draw>Y</draw>
     </GUI>
     </step>
@@ -867,7 +867,7 @@
         <group/>
         <nullif/>
         <trim_type>none</trim_type>
-        <length>8</length>
+        <length>9</length>
         <precision>-1</precision>
       </field>
       <field>

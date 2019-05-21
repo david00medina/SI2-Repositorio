@@ -419,7 +419,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>768</xloc>
+      <xloc>704</xloc>
       <yloc>512</yloc>
     </entry>
     <entry>
@@ -543,7 +543,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>880</xloc>
+      <xloc>816</xloc>
       <yloc>512</yloc>
     </entry>
     <entry>
@@ -556,7 +556,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>880</xloc>
+      <xloc>816</xloc>
       <yloc>624</yloc>
     </entry>
     <entry>

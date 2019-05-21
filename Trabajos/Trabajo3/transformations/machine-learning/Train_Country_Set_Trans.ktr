@@ -518,7 +518,7 @@
         <currency>&#x24;</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>8</length>
+        <length>9</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
@@ -658,7 +658,7 @@
         <group/>
         <nullif/>
         <trim_type>none</trim_type>
-        <length>8</length>
+        <length>9</length>
         <precision>-1</precision>
       </field>
       <field>
