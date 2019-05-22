@@ -437,14 +437,14 @@
   <notepads>
   </notepads>
   <connection>
-    <name>Local DB</name>
-    <server>localhost</server>
+    <name>Mozart DB</name>
+    <server>mozart.dis.ulpgc.es</server>
     <type>MYSQL</type>
     <access>Native</access>
-    <database>si2</database>
+    <database>SI2_Grupo2_2018_19</database>
     <port>3306</port>
-    <username>root</username>
-    <password>Encrypted 2be98afc86aa7f2e4cb79ce10cc9da0ce</password>
+    <username>grupo2-si2</username>
+    <password>Encrypted 2be98af9b2395ad81a20df724939baddf</password>
     <servername/>
     <data_tablespace/>
     <index_tablespace/>
@@ -805,7 +805,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection>Local DB</connection>
+    <connection>Mozart DB</connection>
     <commit>100</commit>
     <update_bypassed>N</update_bypassed>
     <lookup>
@@ -914,7 +914,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection>Local DB</connection>
+    <connection>Mozart DB</connection>
     <commit>100</commit>
     <update_bypassed>N</update_bypassed>
     <lookup>
@@ -979,7 +979,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection>Local DB</connection>
+    <connection>Mozart DB</connection>
     <commit>100</commit>
     <update_bypassed>N</update_bypassed>
     <lookup>
