@@ -764,6 +764,12 @@
         <default/>
         <type>String</type>
       </value>
+      <value>
+        <name>name</name>
+        <rename>country</rename>
+        <default/>
+        <type>String</type>
+      </value>
     </lookup>
     <cluster_schema/>
     <remotesteps>
@@ -928,6 +934,18 @@
         <nullif/>
         <trim_type>none</trim_type>
         <length>31</length>
+        <precision>-1</precision>
+      </field>
+      <field>
+        <name>country</name>
+        <type>None</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>-1</length>
         <precision>-1</precision>
       </field>
     </fields>
