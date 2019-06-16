@@ -870,7 +870,9 @@
       <count_field>repetitions</count_field>
       <reject_duplicate_row>Y</reject_duplicate_row>
       <error_description>Repeated rows</error_description>
-    <fields>      </fields>    <cluster_schema/>
+    <fields>      <field>        <name>ID</name>
+        <case_insensitive>N</case_insensitive>
+        </field>      </fields>    <cluster_schema/>
     <remotesteps>
       <input>
       </input>
